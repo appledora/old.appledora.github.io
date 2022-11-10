@@ -1,0 +1,32 @@
+{
+    "1": {
+      "abstract": "Working with the <i>Wikimedia Research team</i> to build <strong>Natural Language Processing tools </strong> for the larger WMF and community and reduce the technical barrier to research using Wikimedia resources.<ul> <li>develop pipelines and tools  that can be used across the <strong>300+ languages</strong> supported by the various Wikimedia projects and aid the community in their contributions</li> <li> Generate paper summaries and analysis reports relevant to the computational linguistics domain</li>  </ul> ",
+      "title": "Research Data Scientist (NLP)",
+      "company": "Wikimedia Foundation, San Francisco, USA",
+      "link": "September, 2022 - Present",
+      "skill": "Wikimedia · wikitext · HTML · Software Documentation · Software Design Patterns · Python"
+    },
+    "2": {
+      "abstract": "Currently, I am working under the supervision of <i>Professor Dr. Nur Yanhaona</i>, to develop an <strong>Automated Media Analysis Framework with Bias and Stance detection of News outlets</strong> - a very extensive research topic with several interconnected modules, requiring collaboration between journalism experts and NLP researchers. We have developed  an end-to-end pipeline that extensively mines entity information from news reports and <b>produces a knowledge graph<b>, while <b>establishing geopolitical affiliations<b>.",
+      "title": "Research Assistant",
+      "company": "BRAC University, Bangladesh",
+      "link": "June, 2022 - Present",
+      "skill": "Natural Language Processing (NLP) · SPARQL · Research · Python (Programming Language) · Machine Learning"
+    },
+    "3": {
+      "abstract": "Worked on <i>three RnD projects</i>. Broadly, my job responsibilities included:      <ul> <li> Creating pipelines for language model training </li> <li> creating resources, presentations, and demonstrations, for workshops and intra-team knowledge sharing</li> <li>collaborating with the linguistic team and NLP researchers in creating a knowledge base </li> <li>alysis and establishment of dataset development and representation guidelines </li> </ul> Besides that, I have worked as one of the core ML engineers of the <strong>National Bangla Treebank and Corpus project</strong> (still ongoing).",
+      "title": "Machine Learning Engineer",
+
+      "company": "GigaTech Ltd., Bangladesh",
+      "link": "August, 2021 - June, 2022",
+      "skill": "PyTorch · Research and Development (R&D) · Natural Language Processing (NLP) · Python (Programming Language)"
+    },
+    "4": {
+      "abstract": "KATclub is a Canada-based learning platform, that exposes students to programming, robotics and other advanced CS topics. As a coding instructor, I helped middle to high school students to start programming through block programming. I also took courses on beginner <strong>web development</strong>, <strong> game development </strong>, and <strong>interactive problem solving</strong>",
+      "title": "Coding Instructor",
+      "company": "KATclub, Kelowna, Canada",
+      "link": "October, 2020 - July, 2021",
+      "skill" : "Problem Break-down · JavaScript · HTML · CSS · Scratch · Tutoring"
+    }
+  }
+  

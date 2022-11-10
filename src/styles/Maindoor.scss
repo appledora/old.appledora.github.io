@@ -1,0 +1,77 @@
+$violet: violet;
+$blue: #0ff;
+
+body {
+  background: #000;
+}
+
+.orb {
+  animation: spin 4s linear infinite;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 140px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 60px $violet,
+    inset -20px 0 60px $blue,
+    inset 20px 0 300px $violet,
+    inset -20px 0 300px $blue,
+    0 0 50px #fff,
+    -10px 0 60px $violet,
+    10px 0 60px $blue;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+// add sufficient padding around the nested text inside the quoteblock class
+.quoteblock {
+  padding: 3em;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.quoteauthor {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mainquote {
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5em;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  animation: neon .08s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon {
+  from {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34),
+      0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92),
+      0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+
+  to {
+    text-shadow:
+      0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42),
+      0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84),
+      0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}

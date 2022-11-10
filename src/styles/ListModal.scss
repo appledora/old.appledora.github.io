@@ -1,0 +1,211 @@
+/* Import */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+/* Variables */
+$color-1: black;
+$color-2: white;
+$color-3: rgb(168, 50, 121);
+
+.timeline {
+  margin: 2vw;
+
+  &:hover {
+    padding: .7vw;
+
+    box-shadow: 0 0 3px black;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: black;
+  }
+}
+
+.timeline-event {
+  position: relative;
+  margin: 2vw;
+
+  &:hover {
+
+    .timeline-event-icon {
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      background-color: $color-3;
+      height: 1.2vw;
+      width: 1.2vw;
+    }
+
+    .timeline-event-thumbnail {
+      -moz-box-shadow: inset 0 0 0 0em #ef795a;
+      -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+      box-shadow: inset 0 0 0 0em #ef795a;
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+}
+
+.timeline-event {
+  position: relative;
+
+  &:hover {
+
+    .timeline-event-icon {
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      background-color: $color-3;
+      height: 1.2vw;
+      width: 1.2vw;
+    }
+
+    .timeline-event-thumbnail {
+      -moz-box-shadow: inset 40em 0 0 0 #a83279;
+      -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+      box-shadow: inset 40em 0 0 0 #a83279;
+      margin: 0%;
+      font-weight: 300;
+
+    }
+  }
+}
+
+.timeline-event-copy {
+  position: relative;
+  // width: 50vw;
+  // height: 8vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+
+  h3 {
+    font-size: 2vw;
+    font-weight: 80;
+    margin-left: 1vw;
+    margin-bottom: .5vh;
+    margin-top: .5vh;
+    color: #a83279;
+  }
+
+  h4 {
+    font-size: 1.5vw;
+    font-weight: 60;
+    margin-left: 1vw;
+    margin-bottom: .5vh;
+    margin-top: .5vh;
+    color: aqua;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .02em;
+    font-size: .8vw;
+    margin-left: 1vw;
+    margin-bottom: .5vh;
+    margin-top: .5vh;
+    color: #fff;
+  }
+
+}
+
+.timeline-event-icon {
+  height: 1.2vw;
+  width: 1.2vw;
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  background-color: #fff;
+  // outline: 10px solid #232931;
+  display: block;
+  position: absolute;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: black;
+  font-size: .8vw;
+  font-weight: 300;
+
+  background-color: white;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin: 0px;
+  padding: 0.25em 1em 0.2em 1em;
+  // create button style that goes with this stylesheet 
+
+}
+
+
+.title {
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: #a83279;
+}
+
+.btn-read {
+  background-color: #a83279;
+  color: white;
+  border: none;
+  padding: .5vw;
+  text-align: center;
+  text-decoration: none;
+  // display: inline-block;
+  font-size: .8vw;
+  cursor: pointer;
+  // border-radius: 12px;
+  margin-top: .5vh;
+  margin-bottom: 2vh;
+  // align button to left 
+  float: right;
+}
+
+// stylesheet for the react paginator 
+.navigationButtons {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.navigationButtons a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #a83279;
+  color: white;
+  cursor: pointer;
+}
+
+.navigationButtons a:hover {
+  color: white;
+  background-color: #a83279;
+}
+
+.navigationActive a {
+  color: white;
+  background-color: #a83279;
+}
+
+.navigationDisabled a {
+  color: #a85286;
+  background-color: #fff;
+}

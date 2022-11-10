@@ -1,0 +1,51 @@
+{
+  "1": {
+    "abstract": "Authored a full-length paper for the WEB3 Conference, 2022 - Research track.",
+    "title": "Under Review",
+    "link": "Under Review",
+    "date": "Under Review", 
+    "publisher": "Under Review", 
+    "authors": "Under Review"
+  },
+  "2": {
+    "abstract": "Co-authored a workshop paper for the <i>CVPR 2022 AI City Challenge Workshop - Track 4</i>, where a built a pipeline to <b>identify multi-class retail products from real-time videos for automatic retail checkout</b> through a combination of <i>segmentation</i>, <i>classification</i> and <i>custom heuristics</i> to have a model with <b>over 45% F-score</b> and <u>globally secured the 3rd place</u>.",
+    "title": "    VISTA: Vision Transformer enhanced by U-Net and Image Colorfulness Frame Filtration for Automatic Retail Checkout",
+    "link": "https://openaccess.thecvf.com/content/CVPR2022W/AICity/papers/Shihab_VISTA_Vision_Transformer_Enhanced_by_U-Net_and_Image_Colorfulness_Frame_CVPRW_2022_paper.pdf", 
+    "date": " Jun 17, 2022", 
+    "publisher": "CVPR 2022 Workshop Proceedings",
+    "authors": "Istiak Hossain Shihab, Nazia Tasnim, Hasib Zunair, Labiba Kanij Rupty, Nabeel Mohammed"
+  },
+  "3": {
+    "abstract": "Authored a workshop paper for the NAACL 2022 SemEval Workshop - Task 11, where we demonstrate our approach in tackling the challenge of <b>recognizing complex open-domain Named Entities in Bangla</b>, through <i>data augmentation</i> and <i>majority-voting based ensembling</i> efforts. The mode performed competitively in the task and <u>placed 8th in the overall global ranking</u>.",
+    "title": "On leveraging data augmentation and ensemble to recognize complex Named Entities in Bangla",
+    "link": "https://aclanthology.org/2022.semeval-1.209/",
+    "date": " Jul 1, 2022",
+    "publisher": "ACL",
+    "authors": "Nazia Tasnim, Md. Istiak Shihab, Asif Shahriyar Sushmit, Steven Bethard, Farig Sadeque"
+  },
+  "4": {
+    "abstract": "Authored a workshop paper <u>accepted for spotlight presentation</u> in the Joint KDD 2021 Health Day and 2021 KDD Workshop on Applied Data Science for Healthcare workshop titled 'Exploring the Scope and Potential of Local Newspaper-based Dengue Surveillance in Bangladesh'. Main contribution includes technique of developing <b>a novel database</b>, using <b>human-in-the-loop techniques</b> in conjunction with <b>guided data mining techniques</b> and methods of <b>classification of dengue disease and its intervention-related news</b>.",
+    "title": "Exploring the Scope and Potential of Local Newspaper-based Dengue Surveillance in Bangladesh",
+    "link": "https://arxiv.org/abs/2107.14095",
+    "date": "Jul 7, 2021",
+    "publisher": "KDD Workshop on Applied Data Science for Healthcare",
+    "authors": "Nazia Tasnim, Md. Istiak Hossain Shihab, Moqsadur Rahman, Sheikh Rabiul Islam, Mohammad Ruhul Amin    "
+  },
+  "5": {
+    "abstract": "Authored one conference paper in The 34th International FLAIRS Conference, titled : 'Observing the Unobserved: A Newspaper Based Dengue Surveillance System for the Low-Income Regions of Bangladesh'.The task required unstructured newspaper data scraping, pre-processing, topic modeling with <b>Guided LDA</b>, classifying with SVM and developing insights from data visualizations. The goal is to aid the relevant authorities in <i>identifying the gaps present in current dengue intervention programs and establishing policies.</i>",
+    "title": "Observing the Unobserved: A Newspaper Based Dengue Surveillance System for the Low-Income Regions of Bangladesh",
+    "link": "https://journals.flvc.org/FLAIRS/article/view/128552",
+    "date": " Apr 15, 2021",
+    "publisher": "The FLORIDA ARTIFICIAL INTELLIGENCE RESEARCH SOCIETY",
+    "authors": "Nazia Tasnim, Istiak Hossain Shihab, Moqsadur Rahman, Jillur Rahman Saurav, Sheikh Rabiul Islam, Mohammad Ruhul Amin"
+  },
+  "6": {
+    "abstract": "Co-authored a journal paper ’Choice of assemblers has a critical impact on denovo assembly of SARS-CoV-2 genome and characterizing variants’,published on Briefings in Bioinformatics. My tasks included <b>analysis of the genomic variant call patterns</b> and <b>visualizing the trends</b>.",
+    "title": "Choice of assemblers has a critical impact on denovo assembly of SARS-CoV-2 genome and characterizing variants",
+    "link": "https://academic.oup.com/bib/article/22/5/bbab102/6210065",
+    "date": "2020",
+    "publisher": "Briefings in Bioinformatics ",
+    "authors": "Rashedul Islam, Rajan Saha Raju, Nazia Tasnim, Istiak Hossain Shihab, Maruf Ahmed Bhuiyan, Yusha Araf, Tofazzal Islam"
+
+  }
+}

@@ -1,0 +1,42 @@
+{
+"1" :{
+    "name": "mwparserfromhtml",
+    "description":"Python library for parsing and mining metadata from the <i>Enterprise HTML Dumps</i>. The repository is a part of the core wiki-tools library. <ul><li>Built the entire module from scratch using <b>Python</b> </li> <li> Efficiently extracts artticle metadata like Category, Templates, Wikilinks, External Links, Media,References etc. with their subcategories </li> <li>Useful for building lossless plaintext dataset from HTML dataset with little resource overhead</li> </ul>",
+    "tools": "",
+    "source":"https://pypi.org/project/mwparserfromhtml/"
+},
+"2" :{
+    "name": "Shaako",
+    "description":" A mobile application with the rural people having little to no access to proper medical health care, to their nearest medical facilities instantly through their neighbourhood community health workers, empowered by low-cost technology. The project became <u>second runners up in the Microsoft Imagine Cup - SEANM Health Track, in 2022.</u> <ul><li>Built the frontend module in <b>Android Framework</b> </li> <li>Backend portal is built using <b>Django</b>, and uses both <b>Firebase</b> and <b>Azure CMS<b> for database management.</li> </ul>",
+
+    "tools": "",
+    "source":"https://github.com/WeDoinaThing"
+},
+"3" :{
+    "name": "SUSTCast",
+    "description":"Fully automated online radio platform servicing over 2000 students of Shahjalal University of Science and Technology<ul><li>  Created the main app using <b>Firebase real-time database</b>, <b>Android</b></li> <li> Helped develop the data collection and processing backend with <b>Python</b></li></ul>",
+
+    "tools": "",
+    "source":"https://github.com/sustcast/sustcast-android-app-v1"
+},
+"4" :{
+    "name": "P2P Chat",
+    "description":"A chat and file-sharing Android app, that connects two devices on the same network using their IP &designated port numbers. <ul><li> </li> <li></li> <li></li> </ul>",
+
+    "tools": "",
+    "source":"https://github.com/appledora/P2P-chat-socket-implementation-on-android"
+}, 
+"5":{
+    "name": "Product Recommendation System Benchmarking",
+    "description":"An analytical project that uses the large Amazon Reviews Dataset to benchmark the performance of various recommendation systems. It also includes an elaborate exploratory analysis of the features.",
+
+    "tools": "",
+    "source":"https://github.com/appledora/amazon_product_recommendation"
+}, 
+"6": {
+"name": "Image Captioning",
+"description":"A simple deep learning project that uses a barebone CNN-RNN architecture to generate captions for images. The model is trained on the Flickr8k dataset. The interface is created using <b>Flask</b> and <b> Django </b>. The web app also includes features to upload images and annotate captions.",
+"tools": "",
+"source":"https://github.com/appledora/image_caption/tree/master/ImageCaptionGenerator"
+}
+}

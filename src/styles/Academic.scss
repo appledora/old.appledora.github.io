@@ -1,0 +1,277 @@
+/* Layout */
+* {
+  box-sizing: border-box;
+}
+
+$violet: violet;
+$blue: #0ff;
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .column {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.container .column .introBox {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  margin: auto;
+  text-align: left;
+  color: #252B37;
+  background-color: #151823;
+  animation: textColor 20s ease infinite;
+
+  @keyframes textColor {
+    0% {
+      color: #7e0fff;
+    }
+
+    50% {
+      color: #0fffc1;
+    }
+
+    100% {
+      color: #7e0fff;
+
+    }
+  }
+
+}
+
+
+#west {
+  display: flex;
+  font-family: monospace;
+  justify-content: center;
+  background-color: darken(#252B37, 4%);
+  background-image: url("https://w0.peakpx.com/wallpaper/643/525/HD-wallpaper-organism-abstract-art-artwork-bnw-curves-drawing-lines-strokes.jpg");
+  background-repeat: round;
+  width: 65%;
+}
+
+.btn-resume {
+  width: 10vw;
+  height: 3vw;
+  margin-right: 1vw;
+  // margin: 1%;
+  background-color: darken(#252B37, 4%);
+  border-radius: 3rem;
+  font-size: 1vw;
+  color: #0ff;
+  border-color: #0ff;
+
+  &:hover {
+    background-color: #0ff;
+    border-color: darken(#252B37, 4%);
+    color: #252B37;
+  }
+}
+
+#east {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+
+}
+
+.triplemoon {
+  align-items: center;
+  position: relative;
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.triplemoon-white {
+  align-items: center;
+  position: relative;
+  width: 10%;
+  height: 10%;
+  margin: 5%;
+  margin-left: 7%;
+  text-align: center;
+}
+
+.text-zone {
+  margin-left: 6%;
+  padding: 1%;
+  width: 75%;
+  height: 60%;
+  font-family: 'Urbanist', sans-serif;
+
+  h1 {
+    margin: 0px;
+    padding: 0%;
+    font-size: 4vw;
+  }
+
+  h3 {
+    margin: 0px;
+    font-size: 2vw;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8vw;
+    letter-spacing: .02em;
+    color: #ffffff;
+  }
+}
+
+.eastbuttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.eastbuttons {
+  button {
+    margin: 1%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: .6vw;
+    font-weight: 600;
+    background-color: #ffff;
+    border: 2px solid;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 8%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    animation: textColor 20s ease infinite;
+
+    @keyframes textColor {
+      0% {
+        color: #7e0fff;
+      }
+
+      50% {
+        color: #0fffc1;
+      }
+
+      100% {
+        color: #7e0fff;
+
+      }
+    }
+
+    &:active {
+      background-color: #252B37;
+    }
+
+    // i {
+    //   transition: all 0.3s ease-out;
+    // }
+
+    &:hover {
+
+      svg {
+        opacity: 0;
+      }
+
+      &::before {
+        transform: scaleY(0);
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -2px;
+      width: calc(100% + 6px);
+      /*100% plus double the times left values*/
+      background-color: white;
+      height: calc(100% - 10px);
+      transition: all 0.5s ease-in-out;
+      transform: scaleY(1);
+    }
+
+    &:after {
+      content: '';
+      font-size: 1.5em;
+      position: absolute;
+      bottom: 40%;
+      width: 100%;
+      display: block;
+      text-align: center;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+      transform: scaleX(1);
+    }
+
+    &:first-child {
+      &:after {
+        content: 'HOME';
+      }
+    }
+  }
+
+  button.edu-link {
+    &:after {
+      content: 'EDUCATION';
+    }
+  }
+
+  button.exp-link {
+    &:after {
+      content: 'EXPERIENCE';
+    }
+  }
+
+  button.pub-link {
+
+    &:after {
+      content: 'PUBLICATIONS';
+    }
+  }
+
+  button.project-link {
+    &:after {
+      content: 'PROJECTS';
+    }
+  }
+
+  button.blog-link {
+    &:after {
+      content: 'BLOG';
+    }
+  }
+
+  button.prize-link {
+    &:after {
+      content: 'PRIZES';
+    }
+  }
+
+
+}
