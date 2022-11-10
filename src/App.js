@@ -1,14 +1,14 @@
 import Academic from "./pages/Academic";
 import Maindoor from "./pages/Maindoor";
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
     <> 
-    <Routes>
-      <Route path="/" element={<Maindoor />} />
+    <HashRouter>
+      <Route exact path="/" element={<Maindoor />} />
       <Route path="/academic" element={<Academic />} />
-    </Routes>
+    </HashRouter>
     </>
   );
 }
