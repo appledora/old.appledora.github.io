@@ -22,7 +22,6 @@ $blue: #0ff;
   overflow: hidden;
   width: 50%;
   text-align: center;
-  cursor: pointer;
   align-items: center;
 }
 
@@ -59,7 +58,7 @@ $blue: #0ff;
   font-family: monospace;
   justify-content: center;
   background-color: darken(#252B37, 4%);
-  background-image: url("https://w0.peakpx.com/wallpaper/643/525/HD-wallpaper-organism-abstract-art-artwork-bnw-curves-drawing-lines-strokes.jpg");
+  background-image: url("../components/assets/images/peakpx.jpg");
   background-repeat: round;
   width: 65%;
 }
@@ -74,6 +73,7 @@ $blue: #0ff;
   font-size: 1vw;
   color: #0ff;
   border-color: #0ff;
+  cursor: pointer;
 
   &:hover {
     background-color: #0ff;
@@ -89,9 +89,44 @@ $blue: #0ff;
   align-items: center;
   justify-content: center;
   width: 35%;
+  height: 100%;
+  background-image:
+  url('http://stash.rachelnabors.com/24ways2012/midground_grass.png'),
+    url("http://stash.rachelnabors.com/24ways2012/background_mountain5.png")
+    ,
+    url('http://stash.rachelnabors.com/24ways2012/background_mountain4.png'),
+    url('http://stash.rachelnabors.com/24ways2012/background_mountain3.png'),
+    url('http://stash.rachelnabors.com/24ways2012/background_mountain2.png'),
+    url('http://stash.rachelnabors.com/24ways2012/background_mountain1.png');
+  // url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+  // url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+  background-repeat: repeat-x;
+  background-position: 
+  0 100%,
+  0 125%,
+    0 100%,
+    0 90%,
+    0 80%,
+    0 65%;
 
+  background-size: 
+  1000px,
+  	2500px,
+  	800px,
+  	500px 200px,
+  	1000px,
+  	1000px;
+  animation: 500s para infinite linear;
+}
+@keyframes para {
+  100% { background-position-x: 2400px, 2000px, 1800px, 1600px, 1200px;}
 }
 
+ .tuna {
+  margin-top: auto;
+  width: 25%;
+  height: 10%;
+ }
 .triplemoon {
   align-items: center;
   position: relative;
@@ -105,8 +140,8 @@ $blue: #0ff;
 .triplemoon-white {
   align-items: center;
   position: relative;
-  width: 15%;
-  height: 15%;
+  width: 35%;
+  height: 35%;
   margin: 6%;
   margin-left: 7%;
   text-align: center;
@@ -144,6 +179,7 @@ $blue: #0ff;
 }
 
 .eastbuttons {
+  margin-top: 20%;
   button {
     margin: 1%;
     padding: 0%;
@@ -156,12 +192,14 @@ $blue: #0ff;
     letter-spacing: .1rem;
     position: relative;
     display: inline-block;
-    width: 24%;
-    height: 8%;
+    width: 100%;
+    height: 24%;
     display: block;
     text-align: center;
     align-items: center;
     position: relative;
+    cursor: pointer;
+    opacity: .5;
     animation: textColor 20s ease infinite;
 
     @keyframes textColor {
@@ -275,3 +313,4 @@ $blue: #0ff;
 
 
 }
+

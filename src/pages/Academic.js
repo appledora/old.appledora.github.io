@@ -14,8 +14,6 @@ import { SiDevdotto } from "react-icons/si";
 import ModalComponent from "../components/ModalComponent";
 
 const Academic = () => {
-  const uploadedFileLink = "../components/assets/contents/CV_v0.1.pdf";
-
   const [isOpen, setIsOpen] = useState(false);
   const [btn, setBtn] = useState(0);
   const toggleModal = () => {
@@ -57,7 +55,9 @@ const Academic = () => {
                   padding: "0px",
                 }}
               >
-                <li style={{ display: "inline", margin: "1%" }}>
+                <li
+                  style={{ display: "inline", margin: "1%", cursor: "pointer" }}
+                >
                   <a
                     href="https://www.linkedin.com/in/nazianim-blu/"
                     target="_blank"
@@ -66,7 +66,9 @@ const Academic = () => {
                     <RiLinkedinLine color="#0ff" size={"2vw"} />
                   </a>
                 </li>
-                <li style={{ display: "inline", margin: "1%" }}>
+                <li
+                  style={{ display: "inline", margin: "1%", cursor: "pointer" }}
+                >
                   <a
                     href="https://github.com/appledora"
                     target="_blank"
@@ -75,7 +77,9 @@ const Academic = () => {
                     <RiGithubLine color="#0ff" size={"2vw"} />
                   </a>
                 </li>
-                <li style={{ display: "inline", margin: "1%" }}>
+                <li
+                  style={{ display: "inline", margin: "1%", cursor: "pointer" }}
+                >
                   <a
                     href="https://appledora.hashnode.dev/"
                     rel="noreferrer"
@@ -110,57 +114,61 @@ const Academic = () => {
           </div>
         </div>
       </div>
-      <div id="east" class="column eastbuttons ">
-        <img className="triplemoon-white" src={Logoitem} alt="hecate" />
-        <button
-          className="edu-link"
-          onClick={() => {
-            toggleModal(1);
-            setBtn(1);
-          }}
-        >
-          <GiOwl style={{ position: "relative" }} size={50} />
-        </button>
-        <button
-          className="exp-link"
-          onClick={() => {
-            toggleModal(2);
-            setBtn(2);
-          }}
-        >
-          {" "}
-          <GiAncientColumns style={{ position: "relative" }} size={50} />{" "}
-        </button>
-        <button
-          className="pub-link"
-          onClick={() => {
-            toggleModal(3);
-            setBtn(3);
-          }}
-        >
-          {" "}
-          <RiQuillPenFill style={{ position: "relative" }} size={50} />
-        </button>
-        <button
-          className="project-link"
-          onClick={() => {
-            toggleModal(4);
-            setBtn(4);
-          }}
-        >
-          {" "}
-          <GiAtom style={{ position: "relative" }} size={50} />
-        </button>
-        <button
-          className="prize-link"
-          onClick={() => {
-            toggleModal(5);
-            setBtn(5);
-          }}
-        >
-          {" "}
-          <GiLaurelsTrophy style={{ position: "relative" }} size={50} />
-        </button>
+      <div id="east">
+        <div className="column eastbuttons">
+          <img className="triplemoon-white" src={Logoitem} alt="hecate" />
+
+          <button
+            className="edu-link"
+            onClick={() => {
+              toggleModal(1);
+              setBtn(1);
+            }}
+          >
+            <GiOwl style={{ position: "relative" }} size={50} />
+          </button>
+          <button
+            className="exp-link"
+            onClick={() => {
+              toggleModal(2);
+              setBtn(2);
+            }}
+          >
+            {" "}
+            <GiAncientColumns style={{ position: "relative" }} size={50} />{" "}
+          </button>
+          <button
+            className="pub-link"
+            onClick={() => {
+              toggleModal(3);
+              setBtn(3);
+            }}
+          >
+            {" "}
+            <RiQuillPenFill style={{ position: "relative" }} size={50} />
+          </button>
+          <button
+            className="project-link"
+            onClick={() => {
+              toggleModal(4);
+              setBtn(4);
+            }}
+          >
+            {" "}
+            <GiAtom style={{ position: "relative" }} size={50} />
+          </button>
+          <button
+            className="prize-link"
+            onClick={() => {
+              toggleModal(5);
+              setBtn(5);
+            }}
+          >
+            {" "}
+            <GiLaurelsTrophy style={{ position: "relative" }} size={50} />
+          </button>
+        </div>
+        <img src="https://i.pinimg.com/originals/7d/10/d4/7d10d49f8cc89bde04981a5dfa644bad.gif" alt="gif" className="tuna" />
       </div>
       {isOpen && (
         <ModalComponent open={isOpen} close={toggleModal} btnType={btn} />
