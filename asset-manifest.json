@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.45a781fe.css",
-    "main.js": "/static/js/main.12b0de8a.js",
+    "main.css": "/static/css/main.f3ee233c.css",
+    "main.js": "/static/js/main.a48e49fa.js",
     "static/js/787.5563d2b7.chunk.js": "/static/js/787.5563d2b7.chunk.js",
-    "static/media/peakpx.jpg": "/static/media/peakpx.b7eb73549951af826150.jpg",
+    "static/media/peakpx.webp": "/static/media/peakpx.ad8c89de40b1767782dc.webp",
+    "static/media/midground_grass.webp": "/static/media/midground_grass.0286944d238757d1272d.webp",
+    "static/media/cat.webp": "/static/media/cat.bebb1a00edee337c980c.webp",
     "static/media/CV_v0.1.pdf": "/static/media/CV_v0.1.24e3bb3045b8d84c5449.pdf",
-    "static/media/trend.jpeg": "/static/media/trend.c9639674e9fc2a3d44fd.jpeg",
+    "static/media/trend.webp": "/static/media/trend.d1d9adc229af3d5325ad.webp",
+    "static/media/background_mountain5.webp": "/static/media/background_mountain5.71e94ded8c41ee84b2e6.webp",
+    "static/media/background_mountain3.webp": "/static/media/background_mountain3.b016a0c30ed66f0675ca.webp",
+    "static/media/background_mountain4.webp": "/static/media/background_mountain4.dbd6f043ece417dd3062.webp",
+    "static/media/background_mountain2.webp": "/static/media/background_mountain2.85558a9e589eb77e4415.webp",
+    "static/media/background_mountain1.webp": "/static/media/background_mountain1.757508c62f011bb436af.webp",
     "static/media/triple-moon.svg": "/static/media/triple-moon.c05c54f83938fefb98c1f01da87747f5.svg",
     "index.html": "/index.html",
-    "main.45a781fe.css.map": "/static/css/main.45a781fe.css.map",
-    "main.12b0de8a.js.map": "/static/js/main.12b0de8a.js.map",
+    "main.f3ee233c.css.map": "/static/css/main.f3ee233c.css.map",
+    "main.a48e49fa.js.map": "/static/js/main.a48e49fa.js.map",
     "787.5563d2b7.chunk.js.map": "/static/js/787.5563d2b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45a781fe.css",
-    "static/js/main.12b0de8a.js"
+    "static/css/main.f3ee233c.css",
+    "static/js/main.a48e49fa.js"
   ]
 }
