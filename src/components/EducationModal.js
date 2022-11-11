@@ -1,6 +1,6 @@
 import React from "react";
 import parse from "html-react-parser";
-
+import trend from "./assets/images/trend.jpeg";
 const Education = () => {
   let headerText = "";
   return (
@@ -23,9 +23,20 @@ const Education = () => {
             visible in my achievements and GPA progression (see the graph
             below!! ) from 2019 onwards
           </b>
-          . At the end of the 8th semester, I had successfully graduated
-          completing <b>163.5 credits</b> with a CGPA I couldn't even dream of
-          achieving in the 1st semester.
+          <br />
+          <img src={trend} alt="trend" 
+          style={{
+            width: "75%",
+            height: "auto",
+            marginLeft: "10%",
+            marginTop: "5%",
+            marginBottom: "5%",
+          }}
+          />.
+          <br/>At the end of the
+          8th semester, I had successfully graduated completing{" "}
+          <b>163.5 credits</b> with a CGPA I couldn't even dream of achieving in
+          the 1st semester.
         </p>
         <br />
         <h4>
@@ -49,6 +60,33 @@ const Education = () => {
             Variable, Laplace Transform and Fourier Series, Numerical Analysis,
             Linear Algebra, Statistics and Probabilities, DBMS, Artificail
             Intellingence, Data Science and Machine Learning{" "}
+          </p>
+        </h4>
+        <br />
+        <h4>
+          Undergraduate Thesis{" "}
+          <p>
+            {" "}
+            Across two semesters, my team and I completed <b>double-thesis </b>
+            from different domains, under the supervision of{" "}
+            <b>
+              Dr. Ruhul Amin, Assistant Professor, Department of Computer and
+              Information Science at Fordham University, New York
+            </b>
+            . The first project was on the topic of building a{" "}
+            <i>
+              proof-of-concept dengue surveillance system for the
+              under-resourced countries
+            </i>
+            (published in two conference workshops). The second thesis was in
+            the Bioinformatics field. This is an on-going work where we try to
+            <i>
+              interpret the usability of transformer based models in
+              identification of IGHV β - cells
+            </i>
+            . The task focuses on using pre-trained deep learning models (BERT,
+            DistilBERT) to find linguistic patterns in RNA sequences and
+            validating their biological significance through language modeling.{" "}
           </p>
         </h4>
       </div>
