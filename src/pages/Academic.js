@@ -112,7 +112,6 @@ const Academic = () => {
       </div>
       <div id="east" class="column eastbuttons ">
         <img className="triplemoon-white" src={Logoitem} alt="hecate" />
-
         <button
           className="edu-link"
           onClick={() => {
