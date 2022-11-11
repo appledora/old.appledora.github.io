@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import "../styles/Maindoor.scss";
 
 const Maindoor = () => {
   return (
     <div>
-      <a href="/academic">
+      <Link to="/academic">
         <div className="orb"></div>
-      </a>
+      </Link>
       <div className="quoteblock">
         <div className="mainquote">
           {" "}
