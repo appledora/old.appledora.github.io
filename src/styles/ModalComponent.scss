@@ -11,8 +11,8 @@
   align-items: center;
 
   .modal {
-    width: 60vw;
-    height: 75vh;
+    width: 75vmin;
+    height: 75vmin;
     padding: 2rem;
     border-radius: 20px;
     // hide scrollbar but still scroll 
@@ -70,8 +70,8 @@
 // create title style where the title is at center of the page
 .title {
   text-align: center;
-  font-size: 2.5vw;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  font-size: 2.5vmin;
+  margin-top: 2vmin;
+  margin-bottom: .5vmin;
   color: #a83279;
 }

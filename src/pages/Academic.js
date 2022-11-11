@@ -63,7 +63,7 @@ const Academic = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <RiLinkedinLine color="#0ff" size={"2vw"} />
+                    <RiLinkedinLine color="#0ff" size={"3vmin"} />
                   </a>
                 </li>
                 <li
@@ -74,7 +74,7 @@ const Academic = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <RiGithubLine color="#0ff" size={"2vw"} />
+                    <RiGithubLine color="#0ff" size={"3vmin"} />
                   </a>
                 </li>
                 <li
@@ -85,7 +85,7 @@ const Academic = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <SiDevdotto color="#0ff" size={"2vw"} />
+                    <SiDevdotto color="#0ff" size={"3vmin"} />
                   </a>
                 </li>
               </ul>
@@ -125,7 +125,7 @@ const Academic = () => {
               setBtn(1);
             }}
           >
-            <GiOwl style={{ position: "relative" }} size={50} />
+            <GiOwl style={{ position: "relative" }} size={"5vmin"} />
           </button>
           <button
             className="exp-link"
@@ -135,7 +135,10 @@ const Academic = () => {
             }}
           >
             {" "}
-            <GiAncientColumns style={{ position: "relative" }} size={50} />{" "}
+            <GiAncientColumns
+              style={{ position: "relative" }}
+              size={"5vmin"}
+            />{" "}
           </button>
           <button
             className="pub-link"
@@ -145,7 +148,7 @@ const Academic = () => {
             }}
           >
             {" "}
-            <RiQuillPenFill style={{ position: "relative" }} size={50} />
+            <RiQuillPenFill style={{ position: "relative" }} size={"5vmin"} />
           </button>
           <button
             className="project-link"
@@ -155,7 +158,7 @@ const Academic = () => {
             }}
           >
             {" "}
-            <GiAtom style={{ position: "relative" }} size={50} />
+            <GiAtom style={{ position: "relative" }} size={"5vmin"} />
           </button>
           <button
             className="prize-link"
@@ -165,10 +168,14 @@ const Academic = () => {
             }}
           >
             {" "}
-            <GiLaurelsTrophy style={{ position: "relative" }} size={50} />
+            <GiLaurelsTrophy style={{ position: "relative" }} size={"5vmin"} />
           </button>
         </div>
-        <img src="https://i.pinimg.com/originals/7d/10/d4/7d10d49f8cc89bde04981a5dfa644bad.gif" alt="gif" className="tuna" />
+        <img
+          src="https://i.pinimg.com/originals/7d/10/d4/7d10d49f8cc89bde04981a5dfa644bad.gif"
+          alt="gif"
+          className="tuna"
+        />
       </div>
       {isOpen && (
         <ModalComponent open={isOpen} close={toggleModal} btnType={btn} />

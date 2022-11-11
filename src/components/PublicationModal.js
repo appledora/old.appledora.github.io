@@ -19,7 +19,6 @@ const ListCardAlt = (props) => {
     setIsOpen(!isOpen);
     // change background color
   };
-  const index = props.index;
   const content = props.content;
   let packet = Object.values(content.abstract);
   let abstract = packet[0];
@@ -51,8 +50,8 @@ const ListCardAlt = (props) => {
                 style={{
                   color: "white",
                   float: "left",
-                  marginLeft: "1vw",
-                  fontSize: ".7vw",
+                  marginLeft: "1vmin",
+                  fontSize: "1.3vmin",
                 }}
               >
                 {publisher}

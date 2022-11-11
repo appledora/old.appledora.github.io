@@ -27,8 +27,8 @@ $blue: #0ff;
 
 .container .column .introBox {
   position: relative;
-  width: 40vw;
-  height: 40vw;
+  width: 75vmin;
+  height: 75vmin;
   margin: auto;
   text-align: left;
   color: #252B37;
@@ -60,17 +60,17 @@ $blue: #0ff;
   background-color: darken(#252B37, 4%);
   background-image: url("../components/assets/images/peakpx.jpg");
   background-repeat: round;
-  width: 65%;
+  width: 55%;
 }
 
 .btn-resume {
-  width: 10vw;
-  height: 3vw;
+  width: 20vmin;
+  height: 3vmin;
   margin-right: 1vw;
   // margin: 1%;
   background-color: darken(#252B37, 4%);
   border-radius: 3rem;
-  font-size: 1vw;
+  font-size: 1.3vmin;
   color: #0ff;
   border-color: #0ff;
   cursor: pointer;
@@ -88,7 +88,7 @@ $blue: #0ff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 45%;
   height: 100%;
   background-image:
   url('http://stash.rachelnabors.com/24ways2012/midground_grass.png'),
@@ -116,7 +116,7 @@ $blue: #0ff;
   	500px 200px,
   	1000px,
   	1000px;
-  animation: 500s para infinite linear;
+  animation: 300s para infinite linear;
 }
 @keyframes para {
   100% { background-position-x: 2400px, 2000px, 1800px, 1600px, 1200px;}
@@ -124,8 +124,8 @@ $blue: #0ff;
 
  .tuna {
   margin-top: auto;
-  width: 25%;
-  height: 10%;
+  width: 20vmin;
+  height: 10vmin;
  }
 .triplemoon {
   align-items: center;
@@ -157,18 +157,18 @@ $blue: #0ff;
   h1 {
     margin: 0px;
     padding: 0%;
-    font-size: 4vw;
+    font-size: 3.5vmin;
   }
 
   h3 {
     margin: 0px;
-    font-size: 2vw;
+    font-size: 2vmin;
   }
 
   p {
     font-family: 'Poppins', sans-serif;
-    font-size: .8vw;
-    letter-spacing: .02em;
+    font-size: 1.5vmin;
+    letter-spacing: .05vmin;
     color: #ffffff;
   }
 }
@@ -176,24 +176,29 @@ $blue: #0ff;
 .eastbuttons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
 }
 
 .eastbuttons {
-  margin-top: 20%;
+  // margin-top: 45%;
+
   button {
-    margin: 1%;
+    margin: 1.5vmin;
     padding: 0%;
     font-family: 'Poppins', sans-serif;
-    font-size: .6vw;
+    font-size: 1.3vmin;
     font-weight: 600;
     background-color: #ffff;
-    border: 2px solid;
+    border: .3vmin solid;
     text-transform: uppercase;
     letter-spacing: .1rem;
     position: relative;
     display: inline-block;
-    width: 100%;
-    height: 24%;
+    width: 20vmin;
+    height: 10vmin;
     display: block;
     text-align: center;
     align-items: center;
@@ -204,15 +209,15 @@ $blue: #0ff;
 
     @keyframes textColor {
       0% {
-        color: #7e0fff;
+        color: rgb(0, 42, 231);
       }
 
       50% {
-        color: #0fffc1;
+        color: #a83279;
       }
 
       100% {
-        color: #7e0fff;
+        color: rgb(0, 42, 231);
 
       }
     }

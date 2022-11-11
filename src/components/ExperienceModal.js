@@ -23,9 +23,7 @@ const ListCardAlt = (props) => {
   let skills = packet[4];
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
-    setTimeout(() => {
       setIsOpen(!isOpen);
-    }, 500);
   };
     // change background color
   return (
