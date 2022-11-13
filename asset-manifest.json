@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6fa9d403.css",
-    "main.js": "/static/js/main.9502d8e1.js",
+    "main.js": "/static/js/main.635647c5.js",
     "static/js/787.5563d2b7.chunk.js": "/static/js/787.5563d2b7.chunk.js",
     "static/media/peakpx.webp": "/static/media/peakpx.ad8c89de40b1767782dc.webp",
     "static/media/midground_grass.webp": "/static/media/midground_grass.0286944d238757d1272d.webp",
     "static/media/cat.webp": "/static/media/cat.bebb1a00edee337c980c.webp",
-    "static/media/CV_v0.1.pdf": "/static/media/CV_v0.1.24e3bb3045b8d84c5449.pdf",
+    "static/media/NAZIA_ML_Resume.pdf": "/static/media/NAZIA_ML_Resume.1bcac43547252f2c5a98.pdf",
     "static/media/trend.webp": "/static/media/trend.d1d9adc229af3d5325ad.webp",
     "static/media/background_mountain5.webp": "/static/media/background_mountain5.71e94ded8c41ee84b2e6.webp",
     "static/media/background_mountain3.webp": "/static/media/background_mountain3.b016a0c30ed66f0675ca.webp",
@@ -16,11 +16,11 @@
     "static/media/triple-moon.svg": "/static/media/triple-moon.c05c54f83938fefb98c1f01da87747f5.svg",
     "index.html": "/index.html",
     "main.6fa9d403.css.map": "/static/css/main.6fa9d403.css.map",
-    "main.9502d8e1.js.map": "/static/js/main.9502d8e1.js.map",
+    "main.635647c5.js.map": "/static/js/main.635647c5.js.map",
     "787.5563d2b7.chunk.js.map": "/static/js/787.5563d2b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fa9d403.css",
-    "static/js/main.9502d8e1.js"
+    "static/js/main.635647c5.js"
   ]
 }
