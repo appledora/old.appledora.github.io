@@ -51,7 +51,8 @@ const ListCardAlt = (props) => {
                   color: "white",
                   float: "left",
                   marginLeft: "1vmin",
-                  fontSize: "1.3vmin",
+                  fontSize: "1.7vmin",
+                  padding:".4vmin"
                 }}
               >
                 {publisher}

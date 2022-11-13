@@ -58,7 +58,7 @@ $blue: #0ff;
   font-family: monospace;
   justify-content: center;
   background-color: darken(#252B37, 4%);
-  background-image: url("../components/assets/images/peakpx.jpg");
+  background-image: url("../components/assets/images/peakpx.webp");
   background-repeat: round;
   width: 55%;
 }
@@ -91,42 +91,52 @@ $blue: #0ff;
   width: 45%;
   height: 100%;
   background-image:
-  url('http://stash.rachelnabors.com/24ways2012/midground_grass.png'),
-    url("http://stash.rachelnabors.com/24ways2012/background_mountain5.png")
-    ,
-    url('http://stash.rachelnabors.com/24ways2012/background_mountain4.png'),
-    url('http://stash.rachelnabors.com/24ways2012/background_mountain3.png'),
-    url('http://stash.rachelnabors.com/24ways2012/background_mountain2.png'),
-    url('http://stash.rachelnabors.com/24ways2012/background_mountain1.png');
+    url('../components/assets/images/midground_grass.webp'),
+    url("../components/assets/images/background_mountain5.webp"),
+    url('../components/assets/images/background_mountain4.webp'),
+    url('../components/assets/images/background_mountain3.webp'),
+    url('../components/assets/images/background_mountain2.webp'),
+    url('../components/assets/images/background_mountain1.webp');
+  // url('http://stash.rachelnabors.com/24ways2012/midground_grass.png'),
+  //   url("http://stash.rachelnabors.com/24ways2012/background_mountain5.png")
+  //   ,
+  //   url('http://stash.rachelnabors.com/24ways2012/background_mountain4.png'),
+  //   url('http://stash.rachelnabors.com/24ways2012/background_mountain3.png'),
+  //   url('http://stash.rachelnabors.com/24ways2012/background_mountain2.png'),
+  //   url('http://stash.rachelnabors.com/24ways2012/background_mountain1.png');
   // url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
   // url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
   background-repeat: repeat-x;
-  background-position: 
-  0 100%,
-  0 125%,
+  background-position:
+    0 100%,
+    0 125%,
     0 100%,
     0 90%,
     0 80%,
     0 65%;
 
-  background-size: 
-  1000px,
-  	2500px,
-  	800px,
-  	500px 200px,
-  	1000px,
-  	1000px;
-  animation: 300s para infinite linear;
-}
-@keyframes para {
-  100% { background-position-x: 2400px, 2000px, 1800px, 1600px, 1200px;}
+  background-size:
+    1000px,
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    1000px;
+  animation: 100s para infinite linear;
 }
 
- .tuna {
+@keyframes para {
+  100% {
+    background-position-x: 2400px, 2000px, 1800px, 1600px, 1200px;
+  }
+}
+
+.tuna {
   margin-top: auto;
   width: 20vmin;
   height: 10vmin;
- }
+}
+
 .triplemoon {
   align-items: center;
   position: relative;
@@ -318,4 +328,3 @@ $blue: #0ff;
 
 
 }
-

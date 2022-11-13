@@ -82,16 +82,19 @@ $color-3: rgb(168, 50, 121);
   margin-bottom: 2vmin;
 
   h3 {
-    font-size: 2.8vmin;
+    font-size: 3.2vmin;
     font-weight: 80;
     margin-left: 1vw;
     margin-bottom: .5vh;
     margin-top: .5vh;
+    letter-spacing: .3vmin;
     color: #a83279;
   }
 
   h4 {
-    font-size: 2.4vmin;
+    font-size: 2.8vmin;
+    letter-spacing: .3vmin;
+    padding: .5vmin;
     font-weight: 60;
     margin-left: 1vw;
     margin-bottom: .5vh;
@@ -101,10 +104,11 @@ $color-3: rgb(168, 50, 121);
 
   p {
     font-family: 'Poppins', sans-serif;
-    letter-spacing: .02em;
-    font-size: 1.5vmin;
+    letter-spacing: .2vmin;
+    font-size: 1.9vmin;
     margin-left: 1vw;
     margin-bottom: .5vh;
+    padding: .2vmin;
     margin-top: .5vh;
     color: #fff;
   }
@@ -175,6 +179,7 @@ $color-3: rgb(168, 50, 121);
   margin-bottom: 2vh;
   // align button to left 
   float: right;
+  justify-content: flex-end;
 }
 
 // stylesheet for the react paginator 

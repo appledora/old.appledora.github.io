@@ -1,7 +1,8 @@
 import "../styles/Academic.scss";
 import { useState } from "react";
 import Logoitem from "../components/assets/images/triple-moon.svg";
-import pdf from "../components/assets/contents/CV_v0.1.pdf";
+import pdf from "../components/assets/contents/NAZIA_ML_Resume.pdf";
+import cat from "../components/assets/images/cat.webp";
 import {
   GiAtom,
   GiLaurelsTrophy,
@@ -29,16 +30,16 @@ const Academic = () => {
             <h3>Machine Learning Engineer</h3>
             <p> Researcher / Reader / Retaliator</p>
             <p>
-              I love writing codes. But to be specific, my primary professional
-              interests include research in NLP, Computer Vision,
-              Bioinformatics, and explainable AI. I am regular in research
+              I love writing codes. In a more granular sense, my primary
+              professional interests include research in NLP, Computer Vision,
+              and explainable AI. In line with this, I am regular in research
               development projects and enjoy competing in hackathons.
               Collaborative work is a comfort zone for me and I have extensive
-              involvement in cross-domain and cross-country large-scale
+              involvement in cross-domain and cross-country large-scale research
               collaborations. I also have tutoring/mentoring experience, and
-              currently support junior research enthusiasts in their
-              explorations. On the offside, I am a FOSS enthusiast and make
-              frequent open-source contributions.
+              currently support junior research aspirants in their explorations.
+              On the offside, I am a FOSS enthusiast and make frequent
+              open-source contributions.
             </p>
             <div
               style={{
@@ -47,7 +48,11 @@ const Academic = () => {
                 position: "relative",
               }}
             >
-              <p>Feel free to reach out to me through:</p>
+              <p>
+                Right now I am based in Bangladesh, working remotely as a
+                Research Data Scientist for the WikiMedia Foundation. Feel free
+                to reach out to me through:
+              </p>
               <ul
                 style={{
                   position: "relative",
@@ -95,8 +100,8 @@ const Academic = () => {
           <div
             style={{
               float: "right",
-              marginTop: "3vw",
-              marginBottom: "1vw",
+              marginTop: "1vmin",
+              marginBottom: "1vmin",
               position: "relative",
             }}
           >
@@ -171,11 +176,7 @@ const Academic = () => {
             <GiLaurelsTrophy style={{ position: "relative" }} size={"5vmin"} />
           </button>
         </div>
-        <img
-          src="https://i.pinimg.com/originals/7d/10/d4/7d10d49f8cc89bde04981a5dfa644bad.gif"
-          alt="gif"
-          className="tuna"
-        />
+        <img src={cat} alt="gif" className="tuna" />
       </div>
       {isOpen && (
         <ModalComponent open={isOpen} close={toggleModal} btnType={btn} />

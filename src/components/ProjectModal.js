@@ -31,19 +31,21 @@ const ListCardAlt = (props) => {
       onMouseLeave={() => toggle()}
     >
       <div className="timeline-event">
-        <label class="timeline-event-icon"></label>
+        <label className="timeline-event-icon"
+        ></label>
 
         <div class="timeline-event-copy">
           <h3>
             {title}{" "}
-            <a href={link} target="_blank" rel="noreferrer">
-              <button className="btn-read">Source Code</button>
-            </a>
           </h3>
 
           {isOpen && (
             <>
               <p>{parse(abstract)}</p>
+              <a href={link} target="_blank" rel="noreferrer">
+              <button className="btn-read"
+              >Source Code</button>
+            </a>
             </>
           )}
         </div>
