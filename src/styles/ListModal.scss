@@ -9,10 +9,8 @@ $color-3: rgb(168, 50, 121);
 
 .timeline {
   margin: 2vmin;
-
   &:hover {
     padding: .7vmin;
-
     box-shadow: 0 0 .6vmin black;
     margin-top: -.2vmin;
     border-radius: .2vmin;
@@ -32,8 +30,8 @@ $color-3: rgb(168, 50, 121);
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       background-color: $color-3;
-      height: 2.5vmin;
-      width: 2.5vmin;
+      // height: 2.5vmin;
+      // width: 2.5vmin;
     }
 
     .timeline-event-thumbnail {
@@ -58,8 +56,8 @@ $color-3: rgb(168, 50, 121);
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       background-color: $color-3;
-      height: 1.2vw;
-      width: 1.2vw;
+      // height: 1.2vw;
+      // width: 1.2vw;
     }
 
     .timeline-event-thumbnail {
