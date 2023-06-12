@@ -30,12 +30,12 @@ const Academic = () => {
             <h3>Graduate Researcher</h3>
             <p> Researcher / Reader / Retaliator</p>
             <p>
-              I am an incoming PhD student at Boston University. Prior to
-              joining the graduate program, I have worked as a Research
-              Scientist (contr.) at the Wikimedia Foundation - mentored by Dr.
+              I am an incoming PhD student at <b>Boston University</b>. Prior to
+              joining the graduate program, I have worked as a <u>Research
+              Scientist (contr.)</u> at the <b>Wikimedia Foundation</b> - mentored by Dr.
               Isaac Johnson and Dr. Martin Gerlach. Following my graduation, I
-              have also spent some time working as a Machine learning Engineer,
-              as well as a Research Assistant at BRAC University under the
+              have also spent some time working as a <u>Machine learning Engineer</u>,
+              as well as a <u>Research Assistant</u> at BRAC University under the
               supervision of Dr. Nur Yanhaona.
             </p>
 
@@ -127,7 +127,7 @@ const Academic = () => {
         <div className="column eastbuttons">
           <img className="triplemoon-white" src={Logoitem} alt="hecate" />
 
-          <button
+          {/* <button
             className="edu-link"
             onClick={() => {
               toggleModal(1);
@@ -135,8 +135,8 @@ const Academic = () => {
             }}
           >
             <GiOwl style={{ position: "relative" }} size={"5vmin"} />
-          </button>
-          <button
+          </button> */}
+          {/* <button
             className="exp-link"
             onClick={() => {
               toggleModal(2);
@@ -148,7 +148,7 @@ const Academic = () => {
               style={{ position: "relative" }}
               size={"5vmin"}
             />{" "}
-          </button>
+          </button> */}
           <button
             className="pub-link"
             onClick={() => {

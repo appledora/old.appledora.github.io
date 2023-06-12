@@ -82,30 +82,30 @@ $color-3: rgb(168, 50, 121);
   margin-bottom: 2vmin;
 
   h3 {
-    font-size: 3.2vmin;
+    font-size: 2vmin;
     font-weight: 80;
     margin-left: 1vw;
     margin-bottom: .5vh;
     margin-top: .5vh;
     letter-spacing: .3vmin;
-    color: #a83279;
+    color: aqua;
   }
 
   h4 {
-    font-size: 2.8vmin;
+    font-size: 1.5vmin;
     letter-spacing: .3vmin;
     padding: .5vmin;
     font-weight: 60;
     margin-left: 1vw;
     margin-bottom: .5vh;
     margin-top: .5vh;
-    color: aqua;
+    color: rgb(59, 150, 150);
   }
 
   p {
     font-family: 'Poppins', sans-serif;
     letter-spacing: .2vmin;
-    font-size: 1.9vmin;
+    font-size: 1.2vmin;
     margin-left: 1vw;
     margin-bottom: .5vh;
     padding: .2vmin;
@@ -161,7 +161,8 @@ $color-3: rgb(168, 50, 121);
   font-size: 2.5vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
-  color: #a83279;
+  color: teal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn-read {

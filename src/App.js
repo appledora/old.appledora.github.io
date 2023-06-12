@@ -15,8 +15,8 @@ const App = () => {
 
     <HashRouter>
       <Switch>
-        <Route exact path="/" component={Maindoor}/>
-        <Route exact path="/academic" component={Academic}/>
+        {/* <Route exact path="/" component={Maindoor}/> */}
+        <Route exact path="/" component={Academic} />
       </Switch>
     </HashRouter>
   );

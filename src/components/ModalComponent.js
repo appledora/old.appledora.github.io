@@ -1,6 +1,6 @@
 // create a new modal to display details
 import "../styles/ModalComponent.scss";
-import Education from "./EducationModal";
+import Education from "./EducationModal_old";
 import Experience from "./ExperienceModal";
 import Publication from "./PublicationModal";
 import Project from "./ProjectModal";

@@ -39,7 +39,7 @@ const ListCardAlt = (props) => {
         <div class="timeline-event-copy">
           <span class="timeline-event-thumbnail">{timeperiod}</span>
           <h3>{title}</h3>
-          <h4>{authors}</h4>
+          <h4>{parse(authors)}</h4>
           {isOpen && (
             <>
               <p>{parse(abstract)}</p>
