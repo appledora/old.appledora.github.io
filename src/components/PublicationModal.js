@@ -48,10 +48,11 @@ const ListCardAlt = (props) => {
               </a>
               <footer
                 style={{
-                  color: "white",
+                  color: "#B09FCA",
                   float: "left",
-                  marginLeft: "1vmin",
+                  marginLeft: "2vmin",
                   fontSize: "1.7vmin",
+                  fontWeight: "400",
                   padding:".4vmin"
                 }}
               >

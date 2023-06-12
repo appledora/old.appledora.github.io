@@ -1,7 +1,7 @@
 /* Import */
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,700);
 /* Variables */
 $color-1: black;
 $color-2: white;
@@ -15,6 +15,7 @@ $color-3: rgb(168, 50, 121);
 
     box-shadow: 0 0 .6vmin black;
     margin-top: -.2vmin;
+    padding-bottom: 5vmin;
     border-radius: .2vmin;
     background-color: black;
   }
@@ -32,8 +33,6 @@ $color-3: rgb(168, 50, 121);
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       background-color: $color-3;
-      height: 2.5vmin;
-      width: 2.5vmin;
     }
 
     .timeline-event-thumbnail {
@@ -58,8 +57,6 @@ $color-3: rgb(168, 50, 121);
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       background-color: $color-3;
-      height: 1.2vw;
-      width: 1.2vw;
     }
 
     .timeline-event-thumbnail {
@@ -83,29 +80,26 @@ $color-3: rgb(168, 50, 121);
 
   h3 {
     font-size: 2vmin;
-    font-weight: 80;
+    font-weight: 700;
     margin-left: 1vw;
     margin-bottom: .5vh;
     margin-top: .5vh;
-    letter-spacing: .3vmin;
-    color: aqua;
+    color: #43BFC7;
   }
 
   h4 {
-    font-size: 1.5vmin;
-    letter-spacing: .3vmin;
+    font-size: 1.6vmin;
     padding: .5vmin;
-    font-weight: 60;
+    font-weight: 400;
     margin-left: 1vw;
     margin-bottom: .5vh;
     margin-top: .5vh;
-    color: rgb(59, 150, 150);
+    color: #ADDFFF;
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .2vmin;
-    font-size: 1.2vmin;
+    font-size: 1.8vmin;
+    font-weight: 300;
     margin-left: 1vw;
     margin-bottom: .5vh;
     padding: .2vmin;
@@ -160,17 +154,17 @@ $color-3: rgb(168, 50, 121);
   text-align: center;
   font-size: 2.5vw;
   margin-top: 2vh;
-  margin-bottom: 2vh;
-  color: teal;
+  margin-bottom: -2vh;
+  color: #20B2AA;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn-read {
-  font-size: 1.3vmin;
+  font-size: 1.5vmin;
   background-color: #a83279;
   color: white;
   border: none;
-  padding: .7vw;
+  padding: .5vw;
   text-align: center;
   text-decoration: none;
   // display: inline-block;
@@ -187,6 +181,7 @@ $color-3: rgb(168, 50, 121);
 .navigationButtons {
   width: 80%;
   height: 40px;
+  font-weight: 400;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -206,14 +201,18 @@ $color-3: rgb(168, 50, 121);
 .navigationButtons a:hover {
   color: white;
   background-color: #a83279;
+  font-weight: 400;
 }
 
 .navigationActive a {
   color: white;
   background-color: #a83279;
+  font-weight: 400;
 }
 
 .navigationDisabled a {
-  color: #a85286;
-  background-color: #fff;
+  color: #837E7C;
+  font-weight: 400;
+  cursor: not-allowed;
+  pointer-events: none;
 }
