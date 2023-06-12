@@ -27,32 +27,36 @@ const Academic = () => {
           <img className="triplemoon" src={Logoitem} alt="hecate" />
           <div className="text-zone">
             <h1 className="name">Nazia Tasnim</h1>
-            <h3>Machine Learning Engineer</h3>
+            <h3>Graduate Researcher</h3>
             <p> Researcher / Reader / Retaliator</p>
             <p>
-              I love writing codes. In a more granular sense, my primary
-              professional interests include research in NLP, Computer Vision,
-              and explainable AI. In line with this, I am regular in research
-              development projects and enjoy competing in hackathons.
-              Collaborative work is a comfort zone for me and I have extensive
-              involvement in cross-domain and cross-country large-scale research
-              collaborations. I also have tutoring/mentoring experience, and
-              currently support junior research aspirants in their explorations.
-              On the offside, I am a FOSS enthusiast and make frequent
-              open-source contributions.
+              I am an incoming PhD student at Boston University. Prior to
+              joining the graduate program, I have worked as a Research
+              Scientist (contr.) at the Wikimedia Foundation - mentored by Dr.
+              Isaac Johnson and Dr. Martin Gerlach. Following my graduation, I
+              have also spent some time working as a Machine learning Engineer,
+              as well as a Research Assistant at BRAC University under the
+              supervision of Dr. Nur Yanhaona.
+            </p>
+
+            <p>
+              My current research interest include{" "}
+              <b>Natural Language Processing</b>, <b>Computer Vision</b>,{" "}
+              <b>Information Extraction</b> and <b>AI for good</b>. In recent
+              days, I have been heavily active in creating LLM resources for my
+              native language Bangla. 
+            </p>
+
+            <p>In my free time I care about <b>plants</b>, <b>pottery</b> and <b>pop-culture</b>. 
             </p>
             <div
               style={{
                 float: "left",
                 margin: "0px",
                 position: "relative",
+                width: "100%",
               }}
             >
-              <p>
-                Right now I am based in Bangladesh, working remotely as a
-                Research Data Scientist for the WikiMedia Foundation. Feel free
-                to reach out to me through:
-              </p>
               <ul
                 style={{
                   position: "relative",
@@ -111,10 +115,10 @@ const Academic = () => {
               download="Nazia_Tasnim_CV.pdf"
               rel="noopener noreferrer"
             >
-              <button type="button" className="btn-resume">
+              {/* <button type="button" className="btn-resume">
                 {" "}
                 Download Resume
-              </button>
+              </button> */}
             </a>
           </div>
         </div>
