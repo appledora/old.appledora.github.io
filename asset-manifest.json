@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3290da46.css",
-    "main.js": "/static/js/main.2549394f.js",
+    "main.css": "/static/css/main.ec3c088d.css",
+    "main.js": "/static/js/main.719a46dd.js",
     "static/js/787.5563d2b7.chunk.js": "/static/js/787.5563d2b7.chunk.js",
-    "static/media/peakpx.webp": "/static/media/peakpx.ad8c89de40b1767782dc.webp",
-    "static/media/midground_grass.webp": "/static/media/midground_grass.0286944d238757d1272d.webp",
-    "static/media/cat.webp": "/static/media/cat.bebb1a00edee337c980c.webp",
-    "static/media/NAZIA_ML_Resume.pdf": "/static/media/NAZIA_ML_Resume.1bcac43547252f2c5a98.pdf",
-    "static/media/background_mountain5.webp": "/static/media/background_mountain5.71e94ded8c41ee84b2e6.webp",
-    "static/media/background_mountain3.webp": "/static/media/background_mountain3.b016a0c30ed66f0675ca.webp",
-    "static/media/background_mountain4.webp": "/static/media/background_mountain4.dbd6f043ece417dd3062.webp",
-    "static/media/background_mountain2.webp": "/static/media/background_mountain2.85558a9e589eb77e4415.webp",
-    "static/media/background_mountain1.webp": "/static/media/background_mountain1.757508c62f011bb436af.webp",
-    "static/media/triple-moon.svg": "/static/media/triple-moon.c05c54f83938fefb98c1f01da87747f5.svg",
+    "static/media/kiki.gif": "/static/media/kiki.dbc607feccefd506a9bd.gif",
+    "static/media/ood.png": "/static/media/ood.012b41332f8a63201135.png",
+    "static/media/kodama.gif": "/static/media/kodama.70b898e767c283c07428.gif",
+    "static/media/dengue.png": "/static/media/dengue.f1853fa8ce08fabfd9db.png",
+    "static/media/vista.png": "/static/media/vista.9f8b0913a72940eda2df.png",
+    "static/media/vehicle.png": "/static/media/vehicle.c57f705b1fb4bb83919a.png",
+    "static/media/bob.jpeg": "/static/media/bob.cb32a32a7995728cfcd3.jpeg",
+    "static/media/multi.png": "/static/media/multi.2256fa1df88c6c7baafc.png",
+    "static/media/mask.webp": "/static/media/mask.35d098eae1c7ad20ac51.webp",
+    "static/media/triple-moon.svg": "/static/media/triple-moon.6ed426052657603ddf52ded4ae75bb4f.svg",
     "index.html": "/index.html",
-    "main.3290da46.css.map": "/static/css/main.3290da46.css.map",
-    "main.2549394f.js.map": "/static/js/main.2549394f.js.map",
+    "main.ec3c088d.css.map": "/static/css/main.ec3c088d.css.map",
+    "main.719a46dd.js.map": "/static/js/main.719a46dd.js.map",
     "787.5563d2b7.chunk.js.map": "/static/js/787.5563d2b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3290da46.css",
-    "static/js/main.2549394f.js"
+    "static/css/main.ec3c088d.css",
+    "static/js/main.719a46dd.js"
   ]
 }
