@@ -1,51 +1,56 @@
 {
+  "0": {
+    "abstract": "This poster summarizes the system description of the Vehicle detection pipeline, with an emphasis on augmentation and ensemble techniques. The submitted system at  <b>Dhaka AI Vehicle Detection Challenge</b> achieved 3rd place.",
+    "title": "Team Passphrase: Dhaka AI Vehicle Detection",
+    "link": "https://www.researchgate.net/profile/Sowmen-Das/publication/356039571_Team_Passphrase_Dhaka_AI_Vehicle_Detection_Challenge_4th_place_Submission/links/618a431b07be5f31b75c5c7f/Team-Passphrase-Dhaka-AI-Vehicle-Detection-Challenge-4th-place-Submission.pdf",
+    "date": "2020",
+    "publisher": "Dhaka AI",
+    "authors": "Sowmen Das, <b>Nazia Tasnim</b>, Md Istiak Hossain Shihab, Mohammad Faiyaz Khan, Rafid Ameer Mahmud",
+    "plot": "./assets/plots/vehicle.png"
+  },
   "1": {
-    "abstract": "Authored a full-length paper for the WEB3 Conference, 2022 - Research track.",
-    "title": "Under Review",
-    "link": "Under Review",
-    "date": "Under Review", 
-    "publisher": "Under Review", 
-    "authors": "Under Review"
+    "abstract": "In this work we perform data-mining on Bangla Newspaper data to analyze it's viability as a supplementary disease surveillance tool - as well as explore relationship between socio-economic status and dengue.",
+    "title": "Observing the Unobserved: A Newspaper Based Dengue Surveillance System for the Low-Income Regions of Bangladesh",
+    "link": "https://journals.flvc.org/FLAIRS/article/download/128552/130032",
+    "date": "2021",
+    "publisher": "Florida AI Research Society",
+    "authors": "Nazia Tasnim, Md Istiak Hossain Shihab, Moqsadur Rahman, Jillur Rahman Saurav, Sheikh Rabiul Islam, Mohammad Ruhul Amin",
+    "plot": "./assets/plots/dengue.png"
   },
   "2": {
-    "abstract": "Co-authored a workshop paper for the <i>CVPR 2022 AI City Challenge Workshop - Track 4</i>, where a built a pipeline to <b>identify multi-class retail products from real-time videos for automatic retail checkout</b> through a combination of <i>segmentation</i>, <i>classification</i> and <i>custom heuristics</i> to have a model with <b>over 45% F-score</b> and <u>globally secured the 3rd place</u>.",
-    "title": "    VISTA: Vision Transformer enhanced by U-Net and Image Colorfulness Frame Filtration for Automatic Retail Checkout",
-    "link": "https://openaccess.thecvf.com/content/CVPR2022W/AICity/papers/Shihab_VISTA_Vision_Transformer_Enhanced_by_U-Net_and_Image_Colorfulness_Frame_CVPRW_2022_paper.pdf", 
-    "date": " Jun 17, 2022", 
-    "publisher": "CVPR 2022 Workshop Proceedings",
-    "authors": "Istiak Hossain Shihab, <b>Nazia Tasnim</b>, Hasib Zunair, Labiba Kanij Rupty, Nabeel Mohammed"
+    "abstract": "For the de novo assembly of the SARS-CoV-2 genomes, a myriad of assemblers is being used. In this study, we aim to understand the variabilities on assembly qualities due to the choice of the assemblers.",
+    "title": "Choice of assemblers has a critical impact on de novo assembly of SARS-CoV-2 genome and characterizing variants",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8083570/",
+    "date": "2021",
+    "publisher": "Briefings in bioinformatics",
+    "authors": "Rashedul Islam, Rajan Saha Raju, Nazia Tasnim, Istiak Hossain Shihab, ..",
+    "plot": "./assets/plots/bob.jpeg"
   },
   "3": {
-    "abstract": "Authored a workshop paper for the NAACL 2022 SemEval Workshop - Task 11, where we demonstrate our approach in tackling the challenge of <b>recognizing complex open-domain Named Entities in Bangla</b>, through <i>data augmentation</i> and <i>majority-voting based ensembling</i> efforts. The mode performed competitively in the task and <u>placed 8th in the overall global ranking</u>.",
+    "abstract": "This workshop paper for the NAACL 2022 SemEval Workshop - Task 11 demonstrates our approach in tackling the challenge of <b>recognizing complex open-domain Named Entities in Bangla</b>, through <i>data augmentation</i> and <i>majority-voting based ensembling</i> efforts. The mode performed competitively in the task and <u>placed 8th in the overall global ranking</u>.",
     "title": "On leveraging data augmentation and ensemble to recognize complex Named Entities in Bangla",
     "link": "https://aclanthology.org/2022.semeval-1.209/",
-    "date": " Jul 1, 2022",
+    "date": "2022",
     "publisher": "ACL",
-    "authors": " <b>Nazia Tasnim</b>, Md. Istiak Shihab, Asif Shahriyar Sushmit, Steven Bethard, Farig Sadeque"
+    "authors": " <b>Nazia Tasnim</b>, Md. Istiak Shihab, Asif Shahriyar Sushmit, Steven Bethard, Farig Sadeque",
+    "plot": "./assets/plots/multi.png"
   },
   "4": {
-    "abstract": "Authored a workshop paper <u>accepted for spotlight presentation</u> in the Joint KDD 2021 Health Day and 2021 KDD Workshop on Applied Data Science for Healthcare workshop titled 'Exploring the Scope and Potential of Local Newspaper-based Dengue Surveillance in Bangladesh'. Main contribution includes technique of developing <b>a novel database</b>, using <b>human-in-the-loop techniques</b> in conjunction with <b>guided data mining techniques</b> and methods of <b>classification of dengue disease and its intervention-related news</b>.",
-    "title": "Exploring the Scope and Potential of Local Newspaper-based Dengue Surveillance in Bangladesh",
-    "link": "https://arxiv.org/abs/2107.14095",
-    "date": "Jul 7, 2021",
-    "publisher": "KDD Workshop on Applied Data Science for Healthcare",
-    "authors": " <b>Nazia Tasnim</b>, Md. Istiak Hossain Shihab, Moqsadur Rahman, Sheikh Rabiul Islam, Mohammad Ruhul Amin    "
+    "abstract": "For robust and accurate detection of retail items, we propose a novel framework that combines the power of Vision Transformer (ViT) and U-Net. We also propose a novel image colorfulness frame filtration technique to filter out the frames that are not suitable for item detection.",
+    "title": "VISTA: Vision Transformer enhanced by U-Net and Image Colorfulness Frame Filtration for Automatic Retail Checkout",
+    "link": "https://openaccess.thecvf.com/content/CVPR2022W/AICity/papers/Shihab_VISTA_Vision_Transformer_Enhanced_by_U-Net_and_Image_Colorfulness_Frame_CVPRW_2022_paper.pdf",
+    "date": "2022",
+    "publisher": "CVPR",
+    "authors": "Md Istiak Hossain Shihab,  <b>Nazia Tasnim</b>,  Hasib Zunair, Labiba Kanij Rupty, Nabeel Mohammed",
+    "plot": "./assets/plots/vehicle.png"
   },
   "5": {
-    "abstract": "Authored one conference paper in The 34th International FLAIRS Conference, titled : 'Observing the Unobserved: A Newspaper Based Dengue Surveillance System for the Low-Income Regions of Bangladesh'.The task required unstructured newspaper data scraping, pre-processing, topic modeling with <b>Guided LDA</b>, classifying with SVM and developing insights from data visualizations. The goal is to aid the relevant authorities in <i>identifying the gaps present in current dengue intervention programs and establishing policies.</i>",
-    "title": "Observing the Unobserved: A Newspaper Based Dengue Surveillance System for the Low-Income Regions of Bangladesh",
-    "link": "https://journals.flvc.org/FLAIRS/article/view/128552",
-    "date": " Apr 15, 2021",
-    "publisher": "The FLORIDA ARTIFICIAL INTELLIGENCE RESEARCH SOCIETY",
-    "authors": " <b>Nazia Tasnim</b>, Istiak Hossain Shihab, Moqsadur Rahman, Jillur Rahman Saurav, Sheikh Rabiul Islam, Mohammad Ruhul Amin"
-  },
-  "6": {
-    "abstract": "Co-authored a journal paper ’Choice of assemblers has a critical impact on denovo assembly of SARS-CoV-2 genome and characterizing variants’,published on Briefings in Bioinformatics. My tasks included <b>analysis of the genomic variant call patterns</b> and <b>visualizing the trends</b>.",
-    "title": "Choice of assemblers has a critical impact on denovo assembly of SARS-CoV-2 genome and characterizing variants",
-    "link": "https://academic.oup.com/bib/article/22/5/bbab102/6210065",
-    "date": "2020",
-    "publisher": "Briefings in Bioinformatics ",
-    "authors": "Rashedul Islam, Rajan Saha Raju,  <b>Nazia Tasnim</b>, Istiak Hossain Shihab, Maruf Ahmed Bhuiyan, Yusha Araf, Tofazzal Islam"
-
+    "abstract": "We present OOD-Speech, the first out-of-distribution (OOD) benchmarking dataset for Bengali automatic speech recognition (ASR). Our training dataset is collected via massively online crowdsourcing campaigns which resulted in 1177.94 hours collected and curated from 22,645 native Bengali speakers from South Asia.",
+    "title": "OOD-Speech: A Large Bengali Speech Recognition Dataset for Out-of-Distribution Benchmarking",
+    "link": "https://arxiv.org/pdf/2305.09688",
+    "date": "2023",
+    "publisher": "INTERSPEECH'23",
+    "authors": "Fazle Rabbi Rakib, Souhardya Saha Dip, Samiul Alam, Nazia Tasnim, Md Istiak Hossain Shihab, ...",
+    "plot": "./assets/plots/ood.png"
   }
 }

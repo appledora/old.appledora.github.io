@@ -1,0 +1,116 @@
+/* Layout */
+* {
+  box-sizing: border-box;
+}
+
+$violet: violet;
+$blue: #0ff;
+$backgroundwidth: 100px;
+// @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  // hide scrollbar but still scroll 
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+
+  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.container .column {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}
+
+.container .column .introBox {
+  position: relative;
+  width: 75vmin;
+  height: 75vmin;
+  margin: auto;
+  text-align: left;
+  color: #252B37;
+  background-color: #151823;
+  color: #7e0fff;
+}
+
+
+#west {
+  display: flex;
+  font-family: monospace;
+  justify-content: center;
+  background-color: darken(#252B37, 4%);
+  background-image: url("../components/assets/images/kiki.gif");
+  background-size: $backgroundwidth;
+  background-repeat: repeat;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  @media (max-width: 720px) {
+    background-size: calc(100vw / (768px / #{$backgroundwidth}));
+    overflow: hidden;
+  }
+}
+
+
+
+
+
+
+.triplemoon {
+  align-items: center;
+  position: relative;
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  margin-left: 40%;
+  text-align: center;
+}
+
+
+
+.text-zone {
+  margin-left: 15%;
+  padding: 1%;
+  width: 75%;
+  height: 60%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+  h1 {
+    margin: 0px;
+    padding: 0%;
+    font-size: 3.5vmin;
+    text-align: center;
+  }
+
+  h3 {
+    margin: 0px;
+    font-size: 2vmin;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.7vmin;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+  }
+}

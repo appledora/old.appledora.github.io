@@ -1,111 +1,86 @@
-/* Import */
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,700);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 /* Variables */
-$color-1: black;
+$color-1: rgb(18, 49, 85);
 $color-2: white;
 $color-3: rgb(168, 50, 121);
+$headlines: rgb(33, 13, 39);
 
-.timeline {
-  margin: 2vmin;
-  &:hover {
-    padding: .7vmin;
-    box-shadow: 0 0 .6vmin black;
-    margin-top: -.2vmin;
-    border-radius: .2vmin;
-    background-color: black;
-  }
+.list-container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: left;
+  align-items: center;
+  color: rgb(112, 168, 241);
+  margin-top: 7vh;
 }
 
-.timeline-event {
-  position: relative;
+
+.item-container {
+  // transition: 1s;
+  justify-content: center;
+  align-items: center;
+  height: 10vmin;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+
   margin: 2vmin;
 
   &:hover {
-
-    .timeline-event-icon {
+    .item-icon {
       -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       background-color: $color-3;
-      // height: 2.5vmin;
-      // width: 2.5vmin;
     }
 
-    .timeline-event-thumbnail {
+    .item-date {
       -moz-box-shadow: inset 0 0 0 0em #ef795a;
       -webkit-box-shadow: inset 0 0 0 0em #ef795a;
       box-shadow: inset 0 0 0 0em #ef795a;
-      color: #fff;
-      font-weight: 500;
+      color: #0a22fc;
+      font-weight: 800;
       margin-left: 2.5vmin;
+      margin-bottom: 2.5vmin;
     }
   }
 }
 
-.timeline-event {
-  position: relative;
 
-  &:hover {
-
-    .timeline-event-icon {
-      -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      background-color: $color-3;
-      // height: 1.2vw;
-      // width: 1.2vw;
-    }
-
-    .timeline-event-thumbnail {
-      -moz-box-shadow: inset 40em 0 0 0 #a83279;
-      -webkit-box-shadow: inset 40em 0 0 0 #a83279;
-      box-shadow: inset 40em 0 0 0 #a83279;
-      margin-left: 2.5vmin;
-      font-weight: 500;
-
-    }
-  }
-}
-
-.timeline-event-copy {
-  position: relative;
-  // width: 50vw;
-  // height: 8vh;
-  margin-top: 2vmin;
+.item-expand {
+  // margin-top: 2vmin;
   margin-left: 2vmin;
-  margin-bottom: 2vmin;
 
   h3 {
-    font-size: 2vmin;
-    font-weight: 80;
-    margin-left: 1vw;
-    margin-bottom: .5vh;
-    margin-top: .5vh;
-    letter-spacing: .3vmin;
-    color: aqua;
+    font-size: 2.2vmin;
+    font-weight: 800;
+    margin-top: .5vmin;
+    margin-left: 1.5vmin;
+    margin-bottom: 0;
+    // margin-bottom: .5vh;
+    // margin-top: 2vh;
+    padding-top: 2vh;
+    color: $headlines;
   }
 
   h4 {
-    font-size: 1.5vmin;
-    letter-spacing: .3vmin;
+    font-size: 1.6vmin;
     padding: .5vmin;
-    font-weight: 60;
-    margin-left: 1vw;
+    font-weight: 500;
+    margin-left: .5vmin;
     margin-bottom: .5vh;
-    margin-top: .5vh;
-    color: rgb(59, 150, 150);
+    margin-top: .1vmin;
+    color: rgb(39 90 156);
   }
 
   p {
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .2vmin;
-    font-size: 1.2vmin;
+    font-size: 1.6vmin;
+    font-weight: 800;
     margin-left: 1vw;
-    margin-bottom: .5vh;
     padding: .2vmin;
     margin-top: .5vh;
     color: #fff;
@@ -113,14 +88,14 @@ $color-3: rgb(168, 50, 121);
 
 }
 
-.timeline-event-icon {
+.item-icon {
   height: 1.5vmin;
   width: 1.5vmin;
   margin: .6vmin;
-  -moz-transition: -moz-transform 0.2s ease-in;
-  -o-transition: -o-transform 0.2s ease-in;
-  -webkit-transition: -webkit-transform 0.2s ease-in;
-  transition: transform 0.2s ease-in;
+  -moz-transition: -moz-transform 0.5s ease-in;
+  -o-transition: -o-transform 0.5s ease-in;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -132,16 +107,17 @@ $color-3: rgb(168, 50, 121);
   position: absolute;
 }
 
-.timeline-event-thumbnail {
+.item-date {
   -moz-transition: box-shadow 0.5s ease-in 0.1s;
   -o-transition: box-shadow 0.5s ease-in 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in;
   -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: black;
   font-size: 1.2vmin;
-  font-weight: 600;
-
+  font-weight: 800;
+  position: absolute;
   background-color: white;
   -moz-box-shadow: inset 0 0 0 0em #ef795a;
   -webkit-box-shadow: inset 0 0 0 0em #ef795a;
@@ -153,65 +129,54 @@ $color-3: rgb(168, 50, 121);
 
 }
 
-
-.title {
-  text-align: center;
-  font-size: 2.5vw;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-  color: teal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.btn-read {
-  font-size: 1.3vmin;
-  background-color: #a83279;
-  color: white;
-  border: none;
-  padding: .7vw;
-  text-align: center;
-  text-decoration: none;
-  // display: inline-block;
-  cursor: pointer;
-  // border-radius: 12px;
-  margin-top: .5vh;
-  margin-bottom: 2vh;
-  // align button to left 
-  float: right;
-  justify-content: flex-end;
+.item-publisher {
+  color: #B09FCA;
+  float: left;
+  margin-left: 2vmin;
+  font-size: 1.7vmin;
+  font-weight: 800;
+  padding: .4vmin;
 }
 
 // stylesheet for the react paginator 
 .navigationButtons {
-  width: 80%;
-  height: 40px;
-  list-style: none;
+  // fix naviagtion buttons to the bottom of the page
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: max-content;
   display: flex;
-  justify-content: center;
-  margin: auto;
-  padding-top: 40px;
+  justify-content: right;
+  align-items: center;
+
+  font-weight: 800;
+  list-style: none;
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 5%;
+  padding-right: 2%;
 }
 
 .navigationButtons a {
-  padding: 10px;
-  margin: 8px;
-  border-radius: 5px;
-  border: 1px solid #a83279;
-  color: white;
+  padding: .5vmin;
+  margin: .5vmin;
+  color: black;
   cursor: pointer;
 }
 
 .navigationButtons a:hover {
-  color: white;
-  background-color: #a83279;
+  font-weight: 400;
+  color: rgb(112, 168, 241);
 }
 
 .navigationActive a {
-  color: white;
-  background-color: #a83279;
+  color: blue;
+  font-weight: 1200;
 }
 
 .navigationDisabled a {
-  color: #a85286;
-  background-color: #fff;
+  color: #837E7C;
+  font-weight: 800;
+  cursor: not-allowed;
+  pointer-events: none;
 }

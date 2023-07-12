@@ -1,24 +1,22 @@
-import Academic from "./pages/Academic";
-import Maindoor from "./pages/Maindoor";
-import { HashRouter, Route, Layout, Routes } from "react-router-dom";
-import { Switch } from "react-router-dom";
+import "./App.css";
+import Sidepane from "./components/Sidepan";
+import AnimatedRoutes from "./components/AnimatedRoutes";
+import { BrowserRouter as Router } from "react-router-dom";
 const App = () => {
   return (
-    // <>
-    //   <HashRouter>
-    //     <Switch>
-    //     <Route  path="/" element={<Maindoor />} />
-    //     <Route  path="/academic"  element={<Academic />} />
-    //     </Switch>
-    //   </HashRouter>
-    // </>
-
-    <HashRouter>
-      <Switch>
-        {/* <Route exact path="/" component={Maindoor}/> */}
-        <Route exact path="/" component={Academic} />
-      </Switch>
-    </HashRouter>
+    // <HashRouter>
+    //   <Sidepane />
+    //   <Switch>
+    //     <Route exact path="/" component={Intro} />
+    //     <Route exact path="/publication" component={Publication} />
+    //   </Switch>
+    // </HashRouter>
+    <div>
+      <Router>
+        <Sidepane />
+        <AnimatedRoutes />
+      </Router>
+    </div>
   );
 };
 

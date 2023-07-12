@@ -1,0 +1,96 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba($color: #252525, $alpha: 0.35);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 1.6vmin;
+        font-weight: 800;
+        margin-left: 1vw;
+        padding: .2vmin;
+        margin-top: .5vh;
+        color: rgb(152, 73, 255);
+        width: 100%;
+    }
+
+    .modal {
+        width: 60%;
+        height: 90vmin;
+        padding: 2rem;
+        border-radius: 20px;
+        // hide scrollbar but still scroll 
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+
+        /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        background-color: #d2dcff;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+        &_header {
+            position: relative;
+
+            &-title {
+                text-align: center;
+            }
+
+            .close {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: white;
+
+                img {
+                    width: 1rem;
+                    height: auto;
+                    transition: all 0.3s;
+                }
+
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        &_content {
+            padding: 1.5rem 0;
+            font-family: 'Urbanist', sans-serif;
+            font-weight: 100;
+        }
+
+
+    }
+}
+
+// create title style where the title is at center of the page
+.title {
+    font-size: 2.5vw;
+    color: rgb(152, 73, 255);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    // margin-top: 2vh;
+    // margin-bottom: 2vh;
+    font-weight: bolder;
+    // padding-top: 2%;
+    // padding-bottom: 2%;
+    width: 100%;
+    height: fit-content;
+    z-index: 999;
+}

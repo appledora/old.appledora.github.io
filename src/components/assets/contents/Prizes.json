@@ -4,32 +4,33 @@
     "description": "Selected as <b>one of 66 interns from a pool of 4500+ applicants</b>. Under the supervision of <i>Dr. Isaac Johnson</i> and <i>Dr. Martin Gerlach</i> (both Senior Research Scientists at WMF), I worked with the Wikimedia Research team for three months to build a parser for Wikimedia Enterprise HTML dumps.",
     "date": 2022
   },
+  "3": {
+    "name": "3rd place in Microsoft Imagine Cup - SEANM",
+    "description": " Of the hundreds of teams who submitted projects, only 12 teams were chosen in the SEANM Regional Finals. Each team submitted a project proposal document and software for an original technology solution developed in one of the 2022 Imagine Cup’s competition categories: earth, education, health, or lifestyle. In this global arena, our team Heimerdinger obtained the Second runners-up position in the Health category,",
+    "date": 2021
+  },
   "2": {
     "name": "3rd place in CVPR AI City Challenge Track-4 (Multi-Object Tracking)",
     "description": "<ul> <li>Performed Multi-class product counting and recognition from real-time videos for automated retail checkout with an <b1>F1-score over 45%</b1></li><li> Built a cascading pipeline consisting of a module foreign object identifier, a hand segmentation module using <b>U-Net</b>, an entropy based <b>domain bias detector</b> and <b>Vision Transfomer</b> based classifier.</li><li>Developed a custom <b>heuristic-based filtration metric</b> to discard empty frames and improve precision.</li></ul>",
     "date": 2022
   },
-  "3": {
+  "4": {
     "name:": "Grace Hopper Scholarship Recipient ",
     "description": "I joined the 2021’s GHC event, as a student scholar. <b>Less than 5% applicants are chosen as scholars each year</b> for their extraordinary academic history and future potentials. I was fortunate to be able join the pool of hand-picked scholars in my first participation.",
     "date": 2021
   },
-  "7": {
-    "name": "3rd place in Microsoft Imagine Cup - SEANM",
-    "description": " Of the hundreds of teams who submitted projects, only 12 teams were chosen in the SEANM Regional Finals. Each team submitted a project proposal document and software for an original technology solution developed in one of the 2022 Imagine Cup’s competition categories: earth, education, health, or lifestyle. In this global arena, our team Heimerdinger obtained the Second runners-up position in the Health category,",
-    "date": 2021
-  },
-  "4": {
+  
+  "5": {
     "name": "4th place in DhakaAI - AI-Based Dhaka Traffic Detection Challenge",
     "description": "<ul><li>Secured 4th place <b>out of 250+ teams</b> in this international Computer Vision challenge organized by DhakaAI.</li><li>Cleaned and pre-processed the noisy, poor quality dataset to fit with different light and weather conditions through augmentation and manual data collection.</li><li>Tuned the hyperparameters of 5-8 SOTA Image classification models <b>(EffDet, Yolo, Cascaded-RCNN, Faster-RCNN)</b> and applied ensemble technique with <b>WBF</b>.</li></ul>",
     "date": 2020
   },
-  "5": {
-    "name": "BRACATHON 3.0 - Healthcare",
+  "6": {
+    "name": "Champion in BRACATHON 3.0 - Healthcare",
     "description": "My team became champion competing with over 300 teams from all over the country across various domains. We built a system that contained an app and web dashboard of learning & assessment modules for BRAC’s <b>6000+ Health workers</b>",
     "date": 2019
   },
-  "6": {
+  "7": {
     "name": "Champion in Hackathon in SUST Tech Fest",
     "description": "My team developed a prototype android app that would facilitate the ASD (Autism Spectrum Disorder) affected by improving their overall social and communication skills. The project mainly utilized VR and AR technologies to provide a fun and interactive learning environment. The project was awarded the <b>best project in the hackathon</b> beating over 50 teams from different universities of Bangladesh.",
     "date": 2019
