@@ -89,17 +89,17 @@ const ListCardAlt = (props) => {
               paddingTop: "0.5%",
             }}
           >
-            {title}{" "}
             <a
               href={link}
               target="_blank"
               rel="noreferrer"
-              style={{
-                float: "right",
-                marginRight: "1vmin",
-              }}
+              // style={{
+              //   float: "right",
+              //   marginRight: "1vmin",
+              // }}
             >
-              <RiFilePaper2Line color="rgb(112, 168, 241)" size={"3vmin"} />
+              {title}{" "}
+              {/* <RiFilePaper2Line color="rgb(112, 168, 241)" size={"3vmin"} /> */}
             </a>
           </h3>
           <h4>{parse(authors)}</h4>
