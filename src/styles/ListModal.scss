@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,700);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 /* Variables */
-$color-1: rgb(18, 49, 85);
+$color-1: rgb(53, 55, 95);
 $color-2: white;
 $color-3: rgb(168, 50, 121);
 $headlines: rgb(33, 13, 39);
@@ -14,10 +14,24 @@ $headlines: rgb(33, 13, 39);
 
   justify-content: left;
   align-items: center;
-  color: rgb(112, 168, 241);
+  // background-color: #837e7c00;
   margin-top: 7vh;
 }
 
+.title {
+  font-size: 2.5vw;
+  color: #20B2AA;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-weight: bolder;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 .item-container {
   // transition: 1s;
@@ -112,7 +126,6 @@ $headlines: rgb(33, 13, 39);
   -o-transition: box-shadow 0.5s ease-in 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in;
   -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
   transition: box-shadow 0.5s ease-in 0.1s;
   color: black;
   font-size: 1.2vmin;

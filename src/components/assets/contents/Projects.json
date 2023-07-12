@@ -1,23 +1,29 @@
 {
-  "7": {
+  "8": {
     "name": "mwparserfromhtml",
     "description": "Python library for parsing and mining metadata from the <i>Enterprise HTML Dumps</i>. Useful for building lossless plaintext dataset from HTML dataset with little resource overhead. <a href='https://techblog.wikimedia.org/2023/02/24/from-hell-to-html/'> <b>Read more about the project here</b></a>",
     "tools": "python, regex, wikidump",
     "source": "https://pypi.org/project/mwparserfromhtml/"
   },
-  "6": {
+  "7": {
     "name": "Shaako",
     "description": " A mobile application with the rural people having little to no access to proper medical health care, to their nearest medical facilities instantly through their neighbourhood community health workers. The project became <u>second runners up in the Microsoft Imagine Cup - SEANM Health Track, in 2022. <a href='https://www.youtube.com/watch?v=AAKgAQp_-4Q&pp=ygUcc2hhYWtvIG1pY3Jvc29mdCBpbWFnaW5lIGN1cA%3D%3D'> <b>Demo Video</b></a>",
 
     "tools": "android, django, firebase, azure",
     "source": "https://github.com/WeDoinaThing"
   },
-  "5": {
+  "6": {
     "name": "SUSTCast",
     "description": "Fully automated online radio platform servicing over 2000 students of Shahjalal University of Science and Technology. <a href='https://play.google.com/store/apps/details?id=com.sust.sustcast'> <b>Playstore Link</b></a>",
 
     "tools": "android, firebase, django, icecast",
     "source": "https://github.com/sustcast/sustcast-android-app-v1"
+  },
+  "5": {
+    "name": "Pneumonia Detection from Chest X-Rays",
+    "description": " The purpose of this research endeavor is to address this limitation by exploring automated approaches to pneumonia detection from chest X-ray images, while maintaining a high level of accuracy. I conducted a comprehensive investigation of various machine learning methods, including Support Vector Machines, Random Forest, Logistic Regression, several modified Convolutional Neural Networks, and the Vision Transformer. Moreover, I examined the utility of transfer learning techniques and assessed the performance of each of the different models",
+    "tools": "CV, DL, ML",
+    "source": "https://github.com/appledora/mlpr-pneumonia-detect"
   },
   "3": {
     "name": "P2P Chat",
@@ -30,15 +36,28 @@
     "name": "Product Recommendation System Benchmarking",
     "description": "An analytical project that uses the large Amazon Reviews Dataset to benchmark the performance of various recommendation systems. It also includes an elaborate exploratory analysis of the features.",
     "tools": "EDA, ML",
-    "source": "https://github.com/appledora/amazon_product_recommendation"
+    "source": "https://github.com/appledora/mlpr-amazon_product_recommendation"
   },
-  "2": {
-    "name": "Image Captioning",
+  "0": {
+    "name": "Image Captioning Web App",
     "description": "A simple deep learning project that uses a barebone CNN-RNN architecture to generate captions for images. The model is trained on the Flickr8k dataset. The interface is created using <b>Flask</b> and <b> Django </b>. The web app also includes features to upload images and annotate captions.",
     "tools": "CV, DL, Flask, Django",
-    "source": "https://github.com/appledora/image_caption/tree/master/ImageCaptionGenerator"
+    "source": "https://github.com/appledora/mlpr-image_caption"
   },
-  "8": {
+
+  "1": {
+    "name": "Experiment on vanishing point detection",
+    "description": "A simple experiment notebook to detect vanishing points in images using the Hough Transform, coupled with filtration, MSE etc. The project was done as a part of the Computer Vision course.",
+    "tools": "CV, python",
+    "source": "https://github.com/appledora/mlpr-vanishing-point"
+  },
+  "2": {
+    "name": "Predict Energy Consumption of buildings from their attributes and weather data",
+    "description": "An extensive analysis of the <a href='https://www.kaggle.com/competitions/widsdatathon2022/data'> <b>WIDS'22 Building Energy Prediction</b></a> dataset. The project includes a detailed exploratory analysis of the features, followed by a comparison of various machine learning models.",
+    "tools": "EDA, ML, DL",
+    "source": "https://github.com/appledora/mlpr-weather_energy"
+  },
+  "9": {
     "name": "mwTokenizer",
     "description": "Python package to perform language-agnostic tokenization. Researchers can start with a Wikipedia article (wikitext or HTML), strip syntax to leave just paragraphs of plaintext, and then further tokenize these sentences into sentences and words for input into models. <a href='https://pypi.org/project/mwtokenizer/'> <b>Install from PyPI</b></a>",
     "tools": "python, regex, tokenizer, benchmarking",
