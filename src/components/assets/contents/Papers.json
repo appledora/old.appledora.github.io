@@ -14,7 +14,7 @@
     "link": "https://journals.flvc.org/FLAIRS/article/download/128552/130032",
     "date": "2021",
     "publisher": "Florida AI Research Society",
-    "authors": "Nazia Tasnim, Md Istiak Hossain Shihab, Moqsadur Rahman, Jillur Rahman Saurav, Sheikh Rabiul Islam, Mohammad Ruhul Amin",
+    "authors": "<b>Nazia Tasnim</b>, Md Istiak Hossain Shihab, Moqsadur Rahman, Jillur Rahman Saurav, Sheikh Rabiul Islam, Mohammad Ruhul Amin",
     "plot": "./assets/plots/dengue.png"
   },
   "2": {
@@ -23,7 +23,7 @@
     "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8083570/",
     "date": "2021",
     "publisher": "Briefings in bioinformatics",
-    "authors": "Rashedul Islam, Rajan Saha Raju, Nazia Tasnim, Istiak Hossain Shihab, ..",
+    "authors": "Rashedul Islam, Rajan Saha Raju, <b>Nazia Tasnim</b>, Istiak Hossain Shihab, ..",
     "plot": "./assets/plots/bob.jpeg"
   },
   "3": {
@@ -50,7 +50,7 @@
     "link": "https://arxiv.org/pdf/2305.09688",
     "date": "2023",
     "publisher": "INTERSPEECH'23",
-    "authors": "Fazle Rabbi Rakib, Souhardya Saha Dip, Samiul Alam, Nazia Tasnim, Md Istiak Hossain Shihab, ...",
+    "authors": "Fazle Rabbi Rakib, Souhardya Saha Dip, Samiul Alam, <b>Nazia Tasnim</b>, Md Istiak Hossain Shihab, ...",
     "plot": "./assets/plots/ood.png"
   }
 }

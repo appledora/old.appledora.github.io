@@ -22,6 +22,25 @@ const Intro = () => {
     >
       <div className="container">
         <div id="west" className="column">
+          <m.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={() => toggle()}
+            style={{
+              float: "right",
+              zIndex: "999",
+              position: "absolute",
+              top: "0",
+              right: "0",
+              margin: "1%",
+              cursor: "pointer",
+              color: "#ff0fbe",
+              // add glow to svg icon
+              filter: "drop-shadow(0 0 0.75rem #ff0fbe)",
+            }}
+          >
+            <MdTipsAndUpdates size={"7vmin"} title={"Updates"} />
+          </m.div>
           <div className="introBox">
             <img className="triplemoon" src={Logoitem} alt="hecate" />
             <div className="text-zone">
@@ -70,7 +89,7 @@ const Intro = () => {
                 flexDirection: "row",
                 width: "max-content",
                 alignItems: "center",
-                paddingLeft: "45%",
+                paddingLeft: "43%",
                 marginTop: "10%",
               }}
             >
@@ -89,7 +108,7 @@ const Intro = () => {
                 >
                   <RiLinkedinLine
                     color="#7e0fff"
-                    size={"3vmin"}
+                    size={"5vmin"}
                     title={"Linkedin"}
                   />
                 </a>
@@ -110,7 +129,7 @@ const Intro = () => {
                 >
                   <RiGithubLine
                     color="#7e0fff"
-                    size={"3vmin"}
+                    size={"5vmin"}
                     title={"Github"}
                   />
                 </a>
@@ -131,29 +150,13 @@ const Intro = () => {
                 >
                   <SiGooglescholar
                     color="#7e0fff"
-                    size={"3vmin"}
+                    size={"5vmin"}
                     title={"Scholars"}
                   />
                 </a>
               </m.li>
             </ul>
-            <m.div
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => toggle()}
-              style={{
-                float: "right",
-                zIndex: "999",
-                position: "absolute",
-                bottom: "0",
-                right: "0",
-                margin: "1%",
-                cursor: "pointer",
-                color: "#ff0fbe",
-              }}
-            >
-              <MdTipsAndUpdates size={"5vmin"} title={"Updates"} />
-            </m.div>
+
             {isOpen && <Updates open={isOpen} close={toggle} />}
           </div>
         </div>

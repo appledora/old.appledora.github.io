@@ -1,5 +1,5 @@
 import { motion as m } from "framer-motion";
-import "../styles/Update.scss"; 
+import "../styles/Update.scss";
 import paperData from "./assets/contents/Update.json";
 import parse from "html-react-parser";
 
@@ -19,13 +19,14 @@ const ListItems = (props) => {
   let title = parse(packet[0]);
 
   return (
-    <div className="item-container"
-    style={{
+    <div
+      className="item-container"
+      style={{
         height: "max-content",
         margin: "2vmin",
         padding: "2vmin",
         width: "100%",
-    }}
+      }}
     >
       <span
         style={{
@@ -42,6 +43,7 @@ const ListItems = (props) => {
       >
         {timeperiod}
       </span>
+      {console.log(title)}
       <p>{title}</p>
     </div>
   );

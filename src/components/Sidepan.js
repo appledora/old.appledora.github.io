@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Sidepane = () => {
   const location = useLocation();
+  console.log(location.pathname);
   return (
     <div className="sidepaneContainer">
       <div>
@@ -28,14 +29,7 @@ const Sidepane = () => {
         >
           Prizes
         </Link>
-        {/* <Link
-          to="/experience"
-          className={
-            location.pathname === "/experience" ? "selected" : "normal"
-          }
-        >
-          Experience
-        </Link> */}
+
         <Link
           to="/projects"
           className={location.pathname === "/projects" ? "selected" : "normal"}

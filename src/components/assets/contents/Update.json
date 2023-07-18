@@ -1,6 +1,10 @@
 {
   "1": {
-    "name": "Released a new package on pypi!! 🎉",
+    "name": "Released a new package!! 🎉 <br/> <a href='https://pypi.org/project/mwtokenizer'>Install from PyPI!</a>",
     "date": "June 27, 2023"
+  },
+  "2": {
+    "name": "Uploaded the first pretrained conformer weights for Bangla on HuggingFace 🤗🤗 <br/><a href='https://huggingface.co/bengaliAI/BanglaConformer'>See here!</a>",
+    "date": "July 7, 2023"
   }
 }

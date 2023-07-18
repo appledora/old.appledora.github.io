@@ -1,22 +1,20 @@
 import "./App.css";
 import Sidepane from "./components/Sidepan";
 import AnimatedRoutes from "./components/AnimatedRoutes";
+// import { BrowserRouter as Router } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
+import React from "react";
+
 const App = () => {
   return (
-    // <HashRouter>
-    //   <Sidepane />
-    //   <Switch>
-    //     <Route exact path="/" component={Intro} />
-    //     <Route exact path="/publication" component={Publication} />
-    //   </Switch>
-    // </HashRouter>
-    <div>
-      <Router>
-        <Sidepane />
-        <AnimatedRoutes />
-      </Router>
-    </div>
+    <React.StrictMode>
+      <div>
+        <Router basename={process.env.PUBLIC_URL}>
+          <Sidepane />
+          <AnimatedRoutes />
+        </Router>
+      </div>
+    </React.StrictMode>
   );
 };
 
