@@ -1,4 +1,10 @@
 {
+  "9": {
+    "name": "VISTA for Automated Retail Check-out",
+    "description": "We developed an end-to-end pipeline combining SOTA and custom built heuristics to effectively identify and count retail product during real-time checkout. Our pipeline is amazingly light-weight, with a sufficient F1-score.",
+    "tools": "CV, DL, PyTorch",
+    "source": "https://github.com/istiakshihab/automated-retail-checkout-aicity22"
+  },
   "8": {
     "name": "mwparserfromhtml",
     "description": "Python library for parsing and mining metadata from the <i>Enterprise HTML Dumps</i>. Useful for building lossless plaintext dataset from HTML dataset with little resource overhead. <a href='https://techblog.wikimedia.org/2023/02/24/from-hell-to-html/'> <b>Read more about the project here</b></a>",
@@ -57,7 +63,7 @@
     "tools": "EDA, ML, DL",
     "source": "https://github.com/appledora/mlpr-weather_energy"
   },
-  "9": {
+  "10": {
     "name": "mwTokenizer",
     "description": "Python package to perform language-agnostic tokenization. Researchers can start with a Wikipedia article (wikitext or HTML), strip syntax to leave just paragraphs of plaintext, and then further tokenize these sentences into sentences and words for input into models. <a href='https://pypi.org/project/mwtokenizer/'> <b>Install from PyPI</b></a>",
     "tools": "python, regex, tokenizer, benchmarking",

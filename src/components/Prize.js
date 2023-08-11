@@ -101,7 +101,7 @@ const Prizes = () => {
   const [page, setPage] = useState(0);
   let papers = getData();
   // reverse the order of the papers
-  // papers = papers;
+  papers = papers.reverse();
   // dynamically calculate the number of papers per page given the window height
   const windowHeight = document.body.clientHeight;
   const papersPerPage = Math.floor(windowHeight / 140);
