@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const Sidepane = () => {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <div className="sidepaneContainer">
       <div>

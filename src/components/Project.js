@@ -125,7 +125,7 @@ const Project = () => {
 
   // dynamically calculate the number of papers per page given the window height
   const windowHeight = document.body.clientHeight;
-  const papersPerPage = Math.floor(windowHeight / 130);
+  const papersPerPage = Math.floor(windowHeight / 140);
   const numberOfPapersVistited = page * papersPerPage;
   const totalPages = Math.ceil(papers.length / papersPerPage);
   const pagecount = papers.length;

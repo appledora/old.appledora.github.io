@@ -41,6 +41,26 @@ const Intro = () => {
           >
             <MdTipsAndUpdates size={"7vmin"} title={"Updates"} />
           </m.div>
+          <div
+            // place at the bottom-left corner
+            style={{
+              position: "absolute",
+              bottom: "0",
+              left: "0",
+              margin: "1%",
+            }}
+          >
+            <footer>
+              <a>
+                <img
+                  src="https://hitwebcounter.com/counter/counter.php?page=8724449&style=0036&nbdigits=5&type=page&initCount=0"
+                  title="Counter Widget"
+                  Alt="Visit counter For Websites"
+                  border="0"
+                />
+              </a>
+            </footer>
+          </div>
           <div className="introBox">
             <img className="triplemoon" src={Logoitem} alt="hecate" />
             <div className="text-zone">
@@ -59,7 +79,7 @@ const Intro = () => {
               </p>
 
               <p>
-                My current research interest include{" "}
+                My current research interests include{" "}
                 <b>Natural Language Processing</b>, <b>Computer Vision</b>,{" "}
                 <b>Information Extraction</b> and <b>AI for good</b>. In recent
                 days, I have been heavily active in creating LLM resources for

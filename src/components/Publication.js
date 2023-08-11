@@ -3,7 +3,6 @@ import ReactPaginate from "react-paginate";
 import parse from "html-react-parser";
 import paperData from "./assets/contents/Papers.json";
 import { motion as m } from "framer-motion";
-import { RiFilePaper2Line } from "react-icons/ri";
 import "../styles/ListModal.scss";
 const getData = () => {
   const loadedData = JSON.stringify(paperData);
@@ -17,10 +16,10 @@ const getData = () => {
 const expandVariants = {
   expanded: {
     height: "max-content",
-    padding: "1vmin",
+    paddingTop: ".7vmin",
     boxShadow: "0 0 1vmin black",
     marginTop: "1.2vmin",
-    marginBottom: "1.2vmin",
+    marginBottom: ".5vmin",
     borderRadius: "2vmin",
     backgroundColor: "#22212186",
     transition: {
@@ -33,9 +32,7 @@ const expandVariants = {
     padding: ".5%",
     boxShadow: "none",
     marginTop: ".5%",
-    marginBottom: "3%",
     borderRadius: "0",
-    backgroundColor: "transparent",
     transition: {
       duration: 1,
       ease: [0.04, 0.62, 0.23, 0.98],
@@ -93,13 +90,8 @@ const ListCardAlt = (props) => {
               href={link}
               target="_blank"
               rel="noreferrer"
-              // style={{
-              //   float: "right",
-              //   marginRight: "1vmin",
-              // }}
             >
               {title}{" "}
-              {/* <RiFilePaper2Line color="rgb(112, 168, 241)" size={"3vmin"} /> */}
             </a>
           </h3>
           <h4>{parse(authors)}</h4>
@@ -109,8 +101,9 @@ const ListCardAlt = (props) => {
                 <img
                   src={require("" + plot)}
                   alt="plot"
-                  style={{ float: "right" }}
+                  style={{ float: "right", padding: "0.5vmin"}}
                   width={"8%"}
+                  
                 />
                 {parse(abstract)}
 
